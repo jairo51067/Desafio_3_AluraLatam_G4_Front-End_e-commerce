@@ -12,19 +12,22 @@ body {
 
 /* header */
 /* logo buscador login in */
-.cabecera_contenedor {   
+.cabecera_contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-  align-self: stretch;
+ 
   background-color: #fff;
+}
+
+.cabecera_contenedor_buscador{
+  width: 1136px;
 }
 
 .buscador {
   display: flex;
   width: 1136px;
-  padding: 16px 32px 16px 32px;
+  padding: 16px 0px 16px 0px;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
@@ -43,7 +46,7 @@ body {
   padding: 8px 16px;
   background: #8888883f;
   border-radius: 20px;
-}   
+}
 
 #inputSearch {
   width: 95%;
@@ -144,19 +147,19 @@ body {
       rgba(0, 0, 0, 0) 41.15%,
       rgba(0, 0, 0, 0.8) 100%
     ),
-    url(presentacion.jpeg), lightgray 50% / cover no-repeat;
+    url(/presentacion.jpeg), lightgray 50% / cover no-repeat;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 1440px;
   height: 40vh;
 
-  margin: 0 auto;
-  padding: 32px;
+  
+ 
 }
 
 .contenedor_presentacion {
-  width: 828px;
+  width: 704px;
 
   display: flex;
   /* height: 250px; */
@@ -219,7 +222,7 @@ body {
 
 .boton_consola:hover {
   background: #464646;
-}  
+}
 
 /* Inicio lineas de productos */
 .Linea_producto {
@@ -232,7 +235,7 @@ body {
 
 .topo {
   margin-top: 60px;
-  width: 1133px;
+  width: 1136px;
   height: 38px;
   display: flex;
   justify-content: space-between;
@@ -276,11 +279,28 @@ body {
   height: 252px;
   display: flex;
   align-items: flex-start;
-  gap: 16px;
+  gap: 28px;
 }
 
-.producto_a {
-  width: 176px;
+.producto_a1,
+.producto_a2,
+.producto_a3,
+.producto_a4,
+.producto_a5,
+.producto_a6,
+.producto_b1,
+.producto_b2,
+.producto_b3,
+.producto_b4,
+.producto_b5,
+.producto_b6,
+.producto_c1,
+.producto_c2,
+.producto_c3,
+.producto_c4,
+.producto_c5,
+.producto_c6 {
+  width: 166px;
   height: 252px;
   display: flex;
   flex-direction: column;
@@ -288,7 +308,24 @@ body {
   gap: 8px;
 }
 
-.producto_a a {
+.producto_a1 a,
+.producto_a2 a,
+.producto_a3 a,
+.producto_a4 a,
+.producto_a5 a,
+.producto_a6 a,
+.producto_b1 a,
+.producto_b2 a,
+.producto_b3 a,
+.producto_b4 a,
+.producto_b5 a,
+.producto_b6 a,
+.producto_c1 a,
+.producto_c2 a,
+.producto_c3 a,
+.producto_c4 a,
+.producto_c5 a,
+.producto_c6 a {
   text-decoration: none;
   color: var(--azul-100, #2a7ae4);
   font-family: Raleway;
@@ -311,126 +348,126 @@ body {
 }
 
 .skill_img-A1 {
-  background: url(productoA1.png), lightgray 50% / cover no-repeat;
+  background: url(/productoA1.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-A2 {
-  background: url(productoA2.png), lightgray 50% / cover no-repeat;
+  background: url(/productoA2.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-A3 {
-  background: url(productoA3.png), lightgray 50% / cover no-repeat;
+  background: url(/productoA3.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-A4 {
-  background: url(productoA4.png), lightgray 50% / cover no-repeat;
+  background: url(/productoA4.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-A5 {
-  background: url(productoA5.png), lightgray 50% / cover no-repeat;
+  background: url(/productoA5.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-A6 {
-  background: url(productoA6.png), lightgray 50% / cover no-repeat;
+  background: url(/productoA6.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-B1 {
-  background: url(productoB1.png), lightgray 50% / cover no-repeat;
+  background: url(/productoB1.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-B2 {
-  background: url(productoB2.png), lightgray 50% / cover no-repeat;
+  background: url(/productoB2.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-B3 {
-  background: url(productoB3.png), lightgray 50% / cover no-repeat;
+  background: url(/productoB3.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-B4 {
-  background: url(productoB4.png), lightgray 50% / cover no-repeat;
+  background: url(/productoB4.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-B5 {
-  background: url(productoB5.png), lightgray 50% / cover no-repeat;
+  background: url(/productoB5.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-B6 {
-  background: url(productoB6.png), lightgray 50% / cover no-repeat;
+  background: url(/productoB6.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-C1 {
-  background: url(productoC1.png), lightgray 50% / cover no-repeat;
+  background: url(/productoC1.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-C2 {
-  background: url(productoC2.png), lightgray 50% / cover no-repeat;
+  background: url(/productoC2.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-C3 {
-  background: url(productoC3.png), lightgray 50% / cover no-repeat;
+  background: url(/productoC3.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-C4 {
-  background: url(productoC4.png), lightgray 50% / cover no-repeat;
+  background: url(/productoC4.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-C5 {
-  background: url(productoC5.png), lightgray 50% / cover no-repeat;
+  background: url(/productoC5.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
 .skill_img-C6 {
-  background: url(productoC6.png), lightgray 50% / cover no-repeat;
+  background: url(/productoC6.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
@@ -473,7 +510,7 @@ body {
 /* section formulario */
 
 .formulario {
-  /* height: 368px; */
+  width: 1440px;
   display: flex;
   margin-top: 48px;
   padding: 64px;
@@ -487,10 +524,10 @@ body {
 
 .formulario_contenedor {
   width: 1136px;
-
   display: flex;
+  justify-content: space-between;
   align-items: flex-start;
-  gap: 95px;
+  gap: 45px;
 }
 
 .formulario_rodapie-contenedor-logo-texto {
@@ -705,23 +742,49 @@ body {
 /*** width 768px ***/
 
 @media (max-width: 768px) {
+
   .cabecera_contenedor_buscador {
     display: flex;
+    justify-content: center;
     width: 768px;
+  }
+
+  .buscador{
+    width: 704px;
+    padding: 16px 0 16px 0;
   }
 
   .banner_presentacion {
     width: 768px;
-    height: 30vh;
+    height: 40vh;
+    
+  }
+
+  .contenedor_presentacion{
+    padding: 0;
   }
 
   #box-search {
     left: 35%;
     width: 450px;
   }
-  .lineas_productos_cont,
+
+ 
   .Linea_producto {
     width: 768px;
+  }
+
+  .productos-contenedor {
+    width: 704px;
+  }
+
+  .producto_a5,
+  .producto_a6,
+  .producto_b5,
+  .producto_b6,
+  .producto_c5,
+  .producto_c6 {
+    display: none;
   }
 
   .buscador_logo-img1 {
@@ -750,26 +813,31 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    gap: 16px;
+    gap: 12px;
     align-self: stretch;
   }
 
-  .Linea_producto {
-    display: flex;
-    padding: 32px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    align-self: stretch;
-  }
-
+  
   .topo {
-    width: 715px;
+    width: 704px;
     height: 26px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    align-self: stretch;
+   
+  }
+
+  .formulario{
+    width: 768px;
+    margin-top: 16px;
+    padding: 0;
+  }
+
+  .formulario_contenedor{
+    display: flex;
+    justify-content: center;
+    width: 704px;
+    padding: 25px;
   }
 
   .formulario_rodapie-contenedor-logo-texto {
@@ -778,7 +846,6 @@ body {
     gap: 36px;
   }
 
-  .formulario_contenedor,
   .formulario__rodapie_titulo-campos-datos,
   .formulario__rodapie_nombre-mensaje,
   .formulario__rodapie_campos-mensaje {
@@ -802,9 +869,15 @@ body {
 /*** width 360 px ***/
 
 @media (max-width: 390px) {
+
   .cabecera_contenedor_buscador {
-    display: flex;
     width: 390px;
+  }
+
+  .buscador{
+    width: 328px;
+    margin: 0;
+    padding: 16px 0 16px 0;
   }
 
   .buscador_logo-img1 {
@@ -819,26 +892,23 @@ body {
     display: none;
   }
 
-  .buscador {
-    width: 360px;
-    padding: 16px;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 0;
-  }
-
   .boton_login-regitro {
     width: 120px;
     height: 16px;
+    font-size: 12px;
   }
 
-  .boton_login-regitro {
-    font-size: 14px;
+ .banner_presentacion {
+   width: 390px;
   }
 
+  .contenedor_presentacion {
+   width: 340px;
+  }
   .texto_presentacion {
-    gap: 0;
-    padding-bottom: 50px;
+    width: 322px;
+   
+    gap: 2px;
   }
   .texto_presentacion h2 {
     font-size: 22px;
@@ -856,17 +926,42 @@ body {
     font-size: 14px;
   }
 
+  .lineas_productos_cont{
+    width: 390px;
+  }
+
+  .Linea_producto {
+    width: 390px;
+  }
+
   .topo {
     width: 328px;
     height: 26px;
   }
 
   .productos-contenedor {
-    gap: 23px;
+    width: 328px;
+    gap: 7px;
   }
+
+  .producto_a3,
+  .producto_a4,
+  .producto_b3,
+  .producto_b4,
+  .producto_c3,
+  .producto_c4 {
+    display: none;
+  }
+
   .producto_a {
     width: 157px;
   }
+
+.formulario{
+  width: 390px;
+  margin-top: 16px;
+  padding: 0;
+}
 
   .formulario_contenedor {
     display: flex;
