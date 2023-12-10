@@ -610,6 +610,12 @@
   }
 
 
+  /*** width ***/
+  @media (max-width: 1024px){
+.boton_enviar-mensaje{
+  width: 50%;
+}
+  }
   /*** width 768px ***/
 @media (max-width: 768px) {
     .cabecera_contenedor{
@@ -654,7 +660,57 @@
     }
   
     .formulario_rodapie-logo-texto {
-      width: 75%;
+      width: 90%;
+    }
+
+    .boton_enviar-mensaje{
+      width: 43%;
     }
   }
+  /*** width 390px ***/
+  @media (max-width: 390px) {
+    .producto_a3,
+    .producto_a4,
+    .producto_b3,
+    .producto_b4,
+    .producto_c3,
+    .producto_c4 {
+      display: none;
+    }
+
+    .formulario {
+      width: 100%;
+    }
   
+    .formulario_contenedor {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .formulario_rodapie-contenedor-logo-texto {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .formulario_rodapie-logo-texto {
+      width: 50%;
+    }
+  
+  
+    .formulario_rodapie-links ul {
+      align-items: center;
+    }
+  
+    .formulario__rodapie_titulo-campos-datos {
+      width: 100%;
+    }
+
+    .boton_enviar-mensaje{
+      width: 43%;
+    }
+  
+    .pie_pagina-parrafo {
+      text-align: center;
+    }
+  }
