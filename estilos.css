@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -13,21 +13,25 @@ body {
 /* header */
 /* logo buscador login in */
 .cabecera_contenedor {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
- 
+
   background-color: #fff;
 }
 
-.cabecera_contenedor_buscador{
-  width: 1136px;
+.cabecera_contenedor_buscador {
+  width: 78.88889%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .buscador {
   display: flex;
-  width: 1136px;
-  padding: 16px 0px 16px 0px;
+  width: 100%;
+  padding: 2rem 0 2rem 0;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
@@ -35,22 +39,22 @@ body {
 
 .buscador_logo {
   display: flex;
-  width: 176px;
+  width: 15.5%;
   justify-content: center;
   align-items: center;
 }
 
 #ctn-bars-search {
   display: flex;
-  width: 55%;
-  padding: 8px 16px;
+  width: 34.55%;
+  padding: 0.5rem 1rem;
   background: #8888883f;
   border-radius: 20px;
 }
 
 #inputSearch {
-  width: 95%;
-  height: 32px;
+  width: 90%;
+  height: 2rem;
   background: #88888800;
   border: none;
   border-bottom: 1px solid #c8c8c8;
@@ -58,15 +62,19 @@ body {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   transition: width 2s;
+}
+
+.buscador_botones {
+  width: 16%;
 }
 
 .buscador_botones a {
   text-decoration: none;
   color: var(--azul-100, #2a7ae4);
   font-family: "Raleway";
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -75,9 +83,7 @@ body {
 
 .boton_login-regitro {
   display: flex;
-  width: 182px;
-  height: 51px;
-  padding: 16px;
+  padding: 1rem;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -97,7 +103,7 @@ body {
   top: 80px;
   left: 50%;
   transform: translate(-55%);
-  width: 720px;
+  width: 55%;
   background-color: #ffffff;
   overflow: hidden;
   display: none;
@@ -107,7 +113,7 @@ body {
 #box-search a {
   text-decoration: none;
   display: block;
-  width: 720px;
+  width: 55%;
   text-align: left;
   color: #464646;
   padding: 12px 20px;
@@ -147,35 +153,35 @@ body {
       rgba(0, 0, 0, 0) 41.15%,
       rgba(0, 0, 0, 0.8) 100%
     ),
-    url(/presentacion.jpeg), lightgray 50% / cover no-repeat;
+    url(presentacion.jpeg), lightgray 50% / cover no-repeat;
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 1440px;
-  height: 40vh;
 
-  
- 
+  width: 100%;
+  height: 352px;
+  display: flex;
+  justify-content: center;
 }
 
 .contenedor_presentacion {
-  width: 704px;
+  width: 78.8889%;
 
   display: flex;
-  /* height: 250px; */
-
-  padding: 60px 2px 2px 2px;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 1px;
-  align-self: stretch;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 16px;
 }
 
 .texto_presentacion {
+  width: 100%;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-start;
   gap: 16px;
 }
 
@@ -184,7 +190,6 @@ body {
 }
 
 .texto_presentacion h2 {
-  /* width: 1132px; */
   color: #ffffff;
   font-family: "Raleway";
   font-style: normal;
@@ -225,9 +230,16 @@ body {
 }
 
 /* Inicio lineas de productos */
+
+.lineas_productos_cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .Linea_producto {
   display: flex;
-  width: 1136;
+  width: 78.88889%;
   flex-direction: column;
   align-items: center;
   gap: 8px;
@@ -235,7 +247,7 @@ body {
 
 .topo {
   margin-top: 60px;
-  width: 1136px;
+  width: 100%;
   height: 38px;
   display: flex;
   justify-content: space-between;
@@ -275,7 +287,7 @@ body {
 }
 
 .productos-contenedor {
-  width: 1136px;
+  width: 100%;
   height: 252px;
   display: flex;
   align-items: flex-start;
@@ -510,34 +522,30 @@ body {
 /* section formulario */
 
 .formulario {
-  width: 1440px;
+  width: 100%;
   display: flex;
-  margin-top: 48px;
-  padding: 64px;
   justify-content: center;
-  align-items: center;
-  gap: 115px;
-  align-self: stretch;
-
+  padding: 64px 0 64px 0;
+  margin-top: 32px;
   background-color: #eaf2fd;
 }
 
 .formulario_contenedor {
-  width: 1136px;
+  width: 78.8889%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 45px;
+  gap: 112px;
 }
 
 .formulario_rodapie-contenedor-logo-texto {
   display: flex;
-  gap: 36px;
+  gap: 80px;
 }
 
 .formulario_rodapie-logo-texto {
   display: flex;
-  width: 176px;
+  width: 40.84507%;
   height: 50px;
   justify-content: center;
   align-items: center;
@@ -545,13 +553,13 @@ body {
 }
 
 .formulario_rodapie-logo {
-  width: 49.997px;
+  width: 30.724285%;
   height: 50px;
   flex-shrink: 0;
 }
 
 .formulario_rodapie-texto {
-  width: 123.003px;
+  width: 75.724285%;
   height: 18.5px;
   flex-shrink: 0;
 }
@@ -582,7 +590,7 @@ body {
 }
 
 .formulario__rodapie_titulo-campos-datos {
-  width: 560px;
+  width: 49.29577%;
   height: 240px;
 
   display: flex;
@@ -593,7 +601,7 @@ body {
 }
 
 .formulario__rodapie_titulo {
-  width: 560px;
+  width: 100%;
   height: 19px;
 
   color: #464646;
@@ -607,7 +615,7 @@ body {
 }
 
 .formulario__rodapie_nombre-mensaje {
-  width: 560px;
+  width: 100%;
   /* height: 56px; */
   border-radius: 4px;
 
@@ -623,7 +631,7 @@ body {
 }
 
 .formulario__rodapie_nombre {
-  width: 536px;
+  width: 100%;
   height: 16px;
 
   padding: 3px;
@@ -637,7 +645,7 @@ body {
 }
 
 .formulario__rodapie_mensaje {
-  width: 536px;
+  width: 100%;
   height: 20px;
   gap: 4px;
 
@@ -657,7 +665,7 @@ body {
 }
 
 .formulario__rodapie_campos-mensaje {
-  width: 560px;
+  width: 100%;
   height: 82px;
   padding: 16px, 0px, 0px, 0px;
   display: flex;
@@ -672,110 +680,74 @@ body {
 }
 
 .formulario__rodapie_caja-mensaje {
-  width: 560px;
-  height: 66px;
+  width: 100%;
+  height: 4.125rem;
 
   display: flex;
-  padding: 3px;
-  padding-top: 10px;
-  padding-bottom: 56px;
+  padding: 0.1875rem;
+  padding-top: 0.625rem;
+  padding-bottom: 3.5rem;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  gap: 45px;
+  gap: 2.8125rem;
   flex: 1 0 0;
   align-self: stretch;
 
   font-family: Raleway;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;
-  /* 125% */
-
+  line-height: 1.25rem;
   border: none;
   outline: none;
 }
 
 .boton_enviar-mensaje {
-  width: 154px;
-  height: 51px;
-  padding: 16px;
-
+  width: 37.556338%;
+  height: 20%;
   display: flex;
-  padding: 16px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-
   background: var(--azul-100, #2a7ae4);
-
   color: var(--preto-branco, #fff);
   font-family: Raleway;
-  font-size: 16px;
+  font-size: 1em;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-
   border: none;
 }
 
 /* Section pie de pagina */
 
 .pie_pagina {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 2em 1em 2em 1em;
+  padding: 2rem 1rem 2rem 1rem;
   background: #ffffff;
 }
 
 .pie_pagina-parrafo {
+  width: 60%;
+  display: flex;
+  justify-content: center;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #464646;
 }
 
 /*** width 768px ***/
 
 @media (max-width: 768px) {
-
-  .cabecera_contenedor_buscador {
-    display: flex;
-    justify-content: center;
-    width: 768px;
-  }
-
-  .buscador{
-    width: 704px;
-    padding: 16px 0 16px 0;
-  }
-
-  .banner_presentacion {
-    width: 768px;
-    height: 40vh;
-    
-  }
-
-  .contenedor_presentacion{
-    padding: 0;
-  }
-
   #box-search {
-    left: 35%;
+    left: 50%;
     width: 450px;
-  }
-
- 
-  .Linea_producto {
-    width: 768px;
-  }
-
-  .productos-contenedor {
-    width: 704px;
   }
 
   .producto_a5,
@@ -787,53 +759,7 @@ body {
     display: none;
   }
 
-  .buscador_logo-img1 {
-    width: 25%;
-  }
-
-  .buscador_logo-img2 {
-    width: 60%;
-  }
-
-  #ctn-bars-search {
-    width: 272px;
-  }
-
-  .boton_login-regitro,
-  .producto_a,
-  .skill {
-    width: 168px;
-  }
-
-  .texto_presentacion {
-    width: 704px;
-    height: 159px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    gap: 12px;
-    align-self: stretch;
-  }
-
-  
-  .topo {
-    width: 704px;
-    height: 26px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-   
-  }
-
-  .formulario{
-    width: 768px;
-    margin-top: 16px;
-    padding: 0;
-  }
-
-  .formulario_contenedor{
+  .formulario_contenedor {
     display: flex;
     justify-content: center;
     width: 704px;
@@ -841,107 +767,56 @@ body {
   }
 
   .formulario_rodapie-contenedor-logo-texto {
+    
     display: flex;
     flex-direction: column;
     gap: 36px;
   }
 
-  .formulario__rodapie_titulo-campos-datos,
-  .formulario__rodapie_nombre-mensaje,
-  .formulario__rodapie_campos-mensaje {
-    width: 704px;
+  .formulario_rodapie-logo-texto{
+    width: 90%;
   }
-
-  .formulario__rodapie_titulo-campos-datos,
-  .formulario__rodapie_titulo,
-  .formulario__rodapie_nombre-mensaje,
-  .formulario__rodapie_mensaje,
-  .formulario__rodapie_campos-mensaje,
-  .formulario__rodapie_caja-mensaje {
-    width: 434px;
-  }
-
-  .boton_enviar-mensaje {
-    width: 147px;
+  
+  .pie_pagina-parrafo {
+    text-align: center;
   }
 }
 
-/*** width 360 px ***/
+/*** width 390 px ***/
 
 @media (max-width: 390px) {
 
-  .cabecera_contenedor_buscador {
-    width: 390px;
-  }
 
-  .buscador{
-    width: 328px;
-    margin: 0;
-    padding: 16px 0 16px 0;
-  }
 
   .buscador_logo-img1 {
-    width: 20%;
+    width: 80%;
   }
 
   .buscador_logo-img2 {
-    width: 50%;
+    width: 200%;
+  }
+
+  .buscador {
+    display: flex;
+   
+  }
+
+  .buscador_logo{
+    display: flex;
+    margin: 0 0 0 39px;
+    
+  }
+
+  .buscador_botones {
+    width: 30%;
+  }
+
+  .boton_login-regitro{
+    padding: 10px;
   }
 
   #ctn-bars-search {
     display: none;
-  }
-
-  .boton_login-regitro {
-    width: 120px;
-    height: 16px;
-    font-size: 12px;
-  }
-
- .banner_presentacion {
-   width: 390px;
-  }
-
-  .contenedor_presentacion {
-   width: 340px;
-  }
-  .texto_presentacion {
-    width: 322px;
-   
-    gap: 2px;
-  }
-  .texto_presentacion h2 {
-    font-size: 22px;
-  }
-  .texto_presentacion h3 {
-    font-size: 14px;
-  }
-
-  .boton_consola {
-    width: 118px;
-    height: 40px;
-  }
-
-  .texto_presentacion a {
-    font-size: 14px;
-  }
-
-  .lineas_productos_cont{
-    width: 390px;
-  }
-
-  .Linea_producto {
-    width: 390px;
-  }
-
-  .topo {
-    width: 328px;
-    height: 26px;
-  }
-
-  .productos-contenedor {
-    width: 328px;
-    gap: 7px;
   }
 
   .producto_a3,
@@ -953,22 +828,16 @@ body {
     display: none;
   }
 
-  .producto_a {
-    width: 157px;
-  }
-
-.formulario{
-  width: 390px;
-  margin-top: 16px;
-  padding: 0;
-}
-
   .formulario_contenedor {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
     align-self: stretch;
+  }
+
+  .formulario_rodapie-logo-texto{
+    width: 90%;
   }
 
   .formulario_rodapie-links ul {
@@ -987,41 +856,7 @@ body {
     align-self: stretch;
   }
 
-  .formulario__rodapie_titulo,
-  .formulario__rodapie_nombre-mensaje,
-  .formulario__rodapie_nombre,
-  .formulario__rodapie_mensaje,
-  .formulario__rodapie_campos-mensaje,
-  .formulario__rodapie_caja-mensaje {
-    width: 328px;
-  }
-
-  .boton_enviar-mensaje {
-    width: 133px;
-    height: 40px;
-    display: flex;
-    padding: 12px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    font-size: 13px;
-    font-weight: 600;
-  }
-
-  .pie_pagina {
-    display: flex;
-    padding: 32px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    align-self: stretch;
-    font-size: 16px;
-    color: var(--preto-100, #464646);
+  .pie_pagina-parrafo {
     text-align: center;
-    font-family: Raleway;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
   }
 }
