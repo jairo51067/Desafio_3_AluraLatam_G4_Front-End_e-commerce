@@ -263,7 +263,7 @@ body {
 .lineadeproducto_boton a {
   text-decoration: none;
   color: var(--azul-100, #2a7ae4);
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -340,7 +340,7 @@ body {
 .producto_c6 a {
   text-decoration: none;
   color: var(--azul-100, #2a7ae4);
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -750,6 +750,10 @@ body {
     width: 450px;
   }
 
+  #inputSearch{
+    font-size: 0.8rem;
+  }
+
   .producto_a5,
   .producto_a6,
   .producto_b5,
@@ -776,16 +780,21 @@ body {
   .formulario_rodapie-logo-texto{
     width: 90%;
   }
-  
+
   .pie_pagina-parrafo {
     text-align: center;
+  }
+}
+
+@media (max-width: 644px){
+  #inputSearch{
+    font-size: 0.6rem;
   }
 }
 
 /*** width 390 px ***/
 
 @media (max-width: 390px) {
-
 
 
   .buscador_logo-img1 {
