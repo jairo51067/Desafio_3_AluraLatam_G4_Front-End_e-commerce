@@ -11,9 +11,10 @@ body {
 /*** width 1440px ***/
 
 /* header */
-/* logo buscador login in */
+
 .cabecera_contenedor {
   width: 100%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,7 +32,7 @@ body {
 .buscador {
   display: flex;
   width: 100%;
-  padding: 2rem 0 2rem 0;
+  padding: 2% 0 2% 0;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
@@ -39,22 +40,29 @@ body {
 
 .buscador_logo {
   display: flex;
-  width: 15.5%;
-  justify-content: center;
+  width: 20%;
+  /* justify-content: center; */
   align-items: center;
 }
+
+/* .buscador_logo-img1 {
+  width: 25%;
+}
+
+.buscador_logo-img2 {
+  width: 50%;
+} */
 
 #ctn-bars-search {
   display: flex;
   width: 34.55%;
-  padding: 0.5rem 1rem;
+  padding: 1% 1%;
   background: #8888883f;
   border-radius: 20px;
 }
 
 #inputSearch {
   width: 90%;
-  height: 2rem;
   background: #88888800;
   border: none;
   border-bottom: 1px solid #c8c8c8;
@@ -62,32 +70,32 @@ body {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.25vw;
   transition: width 2s;
 }
 
 .buscador_botones {
-  width: 16%;
+  width: 20%;
 }
 
 .buscador_botones a {
   text-decoration: none;
   color: var(--azul-100, #2a7ae4);
   font-family: "Raleway";
-  font-size: 1rem;
+  font-size: 1.25vw;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: normal;
-  border: 1px solid var(--azul-100, #2a7ae4);
+  border: 2px solid var(--azul-100, #2a7ae4);
 }
 
 .boton_login-regitro {
   display: flex;
-  padding: 1rem;
+  padding: 4.5%;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
+  /* gap: 10px; */
+  /* flex-shrink: 0; */
   border: 1px solid #000;
 }
 
@@ -98,12 +106,13 @@ body {
 }
 
 /* ul_box-search*/
+
 #box-search {
   position: fixed;
-  top: 80px;
+  top: 16%;
   left: 50%;
   transform: translate(-55%);
-  width: 55%;
+  width: 50%;
   background-color: #ffffff;
   overflow: hidden;
   display: none;
@@ -116,7 +125,7 @@ body {
   width: 55%;
   text-align: left;
   color: #464646;
-  padding: 12px 20px;
+  padding: 0.75em 1.25em;
   line-height: 25px;
   letter-spacing: 1px;
 }
@@ -145,7 +154,8 @@ body {
 }
 
 /* main */
-/* .section_banner_presentacion {} */
+
+/* section banner presentacion */
 
 .banner_presentacion {
   background: linear-gradient(
@@ -160,33 +170,42 @@ body {
   background-repeat: no-repeat;
 
   width: 100%;
-  height: 352px;
+  height: 313px;
+  margin: auto;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .contenedor_presentacion {
   width: 78.8889%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  gap: 16px;
+  margin: auto;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-evenly; */
+  /* align-items: flex-start; */
 }
 
 .texto_presentacion {
   width: 100%;
-
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  gap: 16px;
+  gap: 18px;
 }
 
 .texto_presentacion a {
   text-decoration: none;
+}
+
+.texto_presentacion h1 {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.225vw;
+  /* line-height: 61px; */
 }
 
 .texto_presentacion h2 {
@@ -194,17 +213,8 @@ body {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 52px;
-  line-height: 61px;
-}
-
-.texto_presentacion h3 {
-  color: #ffffff;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 2.82685vw;
+  /* line-height: 26px; */
 }
 
 .boton_consola {
@@ -213,16 +223,16 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0.8em;
+  padding: 1.5%;
   border: none;
-  width: 129px;
-  height: 51px;
+  width: 20%;
+  /* height: 1%; */
   background-color: #2a7ae4;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1.41342vw;
+  /* line-height: 19px; */
 }
 
 .boton_consola:hover {
@@ -242,11 +252,11 @@ body {
   width: 78.88889%;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  /* gap: 10%; */
 }
 
 .topo {
-  margin-top: 60px;
+  margin-top: 2%;
   width: 100%;
   height: 38px;
   display: flex;
@@ -254,35 +264,43 @@ body {
   align-items: center;
 }
 
+.topo h2 {
+  /* font-size: 1.75vw; */
+}
+
 .lineadeproducto_boton {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 21px;
 }
 
 .lineadeproducto_boton a {
   text-decoration: none;
   color: var(--azul-100, #2a7ae4);
   font-family: "Raleway";
-  font-size: 16px;
+  /* font-size: 1.25vw; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
 .boton-ver-todo {
-  width: 65px;
-  height: 19px;
+  width: 100%;
+  height: 23px;
   color: #2a7ae4;
   font-family: "Raleway";
-  font-size: 16px;
+  /* font-size: 1.25vw; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
+.boton-ver-todo:hover {
+  transform: scale(1.1);
+}
+
 .boton-vector {
-  width: 24px;
+  width: 30%;
   height: 24px;
 }
 
@@ -312,12 +330,36 @@ body {
 .producto_c4,
 .producto_c5,
 .producto_c6 {
-  width: 166px;
+  width: 100%;
   height: 252px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: stretch;
   gap: 8px;
+}
+
+.producto_a1:hover,
+.producto_a2:hover,
+.producto_a3:hover,
+.producto_a4:hover,
+.producto_a5:hover,
+.producto_a6:hover,
+.producto_b1:hover,
+.producto_b2:hover,
+.producto_b3:hover,
+.producto_b4:hover,
+.producto_b5:hover,
+.producto_b6:hover,
+.producto_c1:hover,
+.producto_c2:hover,
+.producto_c3:hover,
+.producto_c4:hover,
+.producto_c5:hover,
+.producto_c6:hover {
+  border: 1px solid #a2a2a2;
+  padding: 5px;
+  box-shadow: 5px 5px 5px #464646;
 }
 
 .producto_a1 a,
@@ -341,22 +383,33 @@ body {
   text-decoration: none;
   color: var(--azul-100, #2a7ae4);
   font-family: "Raleway";
-  font-size: 16px;
+  /* font-size: 1.15vw; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin: 0 auto;
+  height: 20px;
 }
 
-.skill {
-  width: 176px;
-  height: 174px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  gap: 8px;
-
-  background: #fff;
+.producto_a1 a:hover,
+.producto_a2 a:hover,
+.producto_a3 a:hover,
+.producto_a4 a:hover,
+.producto_a5 a:hover,
+.producto_a6 a:hover,
+.producto_b1 a:hover,
+.producto_b2 a:hover,
+.producto_b3 a:hover,
+.producto_b4 a:hover,
+.producto_b5 a:hover,
+.producto_b6 a:hover,
+.producto_c1 a:hover,
+.producto_c2 a:hover,
+.producto_c3 a:hover,
+.producto_c4 a:hover,
+.producto_c5 a:hover,
+.producto_c6 a:hover {
+  transform: scale(1.08);
 }
 
 .skill_img-A1 {
@@ -485,39 +538,6 @@ body {
   align-self: stretch;
 }
 
-.producto_a h3 {
-  width: 176px;
-  height: 16px;
-  font-family: "Raleway";
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16.44px;
-  color: #464646;
-  align-self: stretch;
-}
-
-.producto_a h2 {
-  width: 176px;
-  height: 19px;
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18.78px;
-  color: #464646;
-
-  align-self: stretch;
-}
-
-.producto_a a {
-  width: 100px;
-  height: 19px;
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18.78px;
-  color: #2a7ae4;
-}
-
 /* Footer */
 /* section formulario */
 
@@ -526,7 +546,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 64px 0 64px 0;
-  margin-top: 32px;
+  margin-top: 7%;
   background-color: #eaf2fd;
 }
 
@@ -566,11 +586,11 @@ body {
 
 .formulario_rodapie-links ul {
   display: flex;
-  width: 176px;
+  width: 110%;
   height: 234px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
+  gap: 21px;
   flex-shrink: 0;
 }
 
@@ -579,7 +599,7 @@ body {
 
   color: #464646;
   font-family: "Raleway";
-  font-size: 16px;
+  /* font-size: 16px; */
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -596,7 +616,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
+  gap: 13px;
   flex-shrink: 0;
 }
 
@@ -606,7 +626,7 @@ body {
 
   color: #464646;
   font-family: "Raleway";
-  font-size: 16px;
+  /* font-size: 16px; */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -638,7 +658,7 @@ body {
 
   color: var(--preto-50, #a2a2a2);
   font-family: "Raleway";
-  font-size: 12px;
+  /* font-size: 12px; */
   font-style: normal;
   font-weight: 400;
   line-height: 16px;
@@ -658,7 +678,7 @@ body {
 
   color: #464646;
   font-family: "Raleway";
-  font-size: 18px;
+  /* font-size: 18px; */
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
@@ -695,7 +715,7 @@ body {
   align-self: stretch;
 
   font-family: Raleway;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   font-style: normal;
   font-weight: 400;
   line-height: 1.25rem;
@@ -712,7 +732,7 @@ body {
   background: var(--azul-100, #2a7ae4);
   color: var(--preto-branco, #fff);
   font-family: Raleway;
-  font-size: 1em;
+  /* font-size: 1em; */
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -727,7 +747,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2em 1em 2em 1em;
   background: #ffffff;
 }
 
@@ -738,22 +758,22 @@ body {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
-  font-size: 1.125rem;
+  font-size: 1.5vw;
   color: #464646;
+}
+
+/*** width 1024px ***/
+
+@media (max-width: 1024px) {
+  .formulario_rodapie-links ul {
+    width: 120%;
+    gap: 14px;
+  }
 }
 
 /*** width 768px ***/
 
 @media (max-width: 768px) {
-  #box-search {
-    left: 50%;
-    width: 450px;
-  }
-
-  #inputSearch{
-    font-size: 0.8rem;
-  }
-
   .producto_a5,
   .producto_a6,
   .producto_b5,
@@ -763,69 +783,81 @@ body {
     display: none;
   }
 
-  .formulario_contenedor {
-    display: flex;
-    justify-content: center;
-    width: 704px;
-    padding: 25px;
-  }
-
   .formulario_rodapie-contenedor-logo-texto {
-    
     display: flex;
     flex-direction: column;
     gap: 36px;
   }
 
-  .formulario_rodapie-logo-texto{
-    width: 90%;
-  }
-
-  .pie_pagina-parrafo {
-    text-align: center;
+  .formulario_rodapie-logo-texto {
+    width: 100%;
   }
 }
 
-@media (max-width: 644px){
-  #inputSearch{
-    font-size: 0.6rem;
+/*** width 644 ***/
+
+@media (max-width: 644px) {
+  .buscador_logo {
+    width: 33.5%;
   }
 }
 
 /*** width 390 px ***/
 
 @media (max-width: 390px) {
-
+  .buscador_logo {
+    width: 50%;
+  }
 
   .buscador_logo-img1 {
-    width: 80%;
+    width: 20%;
   }
 
   .buscador_logo-img2 {
-    width: 200%;
-  }
-
-  .buscador {
-    display: flex;
-   
-  }
-
-  .buscador_logo{
-    display: flex;
-    margin: 0 0 0 39px;
-    
+    width: 55%;
   }
 
   .buscador_botones {
-    width: 30%;
+    width: 40%;
   }
 
-  .boton_login-regitro{
-    padding: 10px;
+  .buscador_botones a {
+    font-size: 72%;
+  }
+
+  .boton_login-regitro {
+    font-size: 100%;
   }
 
   #ctn-bars-search {
     display: none;
+  }
+
+  .texto_presentacion h1 {
+    font-size: 9vw;
+  }
+
+  .texto_presentacion h2 {
+    font-size: 4.5vw;
+  }
+
+  .texto_presentacion a {
+    width: 40%;
+    font-size: 2.25vw;
+  }
+
+  .topo h2 {
+    font-size: 100%;
+  }
+
+  .lineadeproducto_boton a {
+    padding-top: 4px;
+    font-size: 80%;
+  }
+
+  .boton-vector {
+    width: 16%;
+    height: 16px;
   }
 
   .producto_a3,
@@ -838,34 +870,45 @@ body {
   }
 
   .formulario_contenedor {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 16px;
-    align-self: stretch;
   }
 
-  .formulario_rodapie-logo-texto{
-    width: 90%;
+  /* .producto_a1 h2
+  .producto_a2 h2,
+  .producto_a3 h2,
+  .producto_a4 h2,
+  .producto_a5 h2,
+  .producto_a6 h2,
+  .producto_b1 h2,
+  .producto_b2 h2,
+  .producto_b3 h2,
+  .producto_b4 h2,
+  .producto_b5 h2,
+  .producto_b6 h2,
+  .producto_c1 h2,
+  .producto_c2 h2,
+  .producto_c3 h2,
+  .producto_c4 h2,
+  .producto_c5 h2,
+  .producto_c6 h2 {
+    font-size: 2vw;
+  } */
+
+  .formulario_rodapie-contenedor-logo-texto {
+    align-items: center;
+    width: 60%;
   }
 
   .formulario_rodapie-links ul {
+    width: 100%;
     align-items: center;
   }
 
   .formulario__rodapie_titulo-campos-datos {
-    width: 360px;
-    height: 333px;
-    display: flex;
-    padding: 16px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 16px;
-    align-self: stretch;
-  }
-
-  .pie_pagina-parrafo {
-    text-align: center;
+    width: 100%;
   }
 }
