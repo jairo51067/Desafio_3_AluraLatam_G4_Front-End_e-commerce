@@ -65,7 +65,8 @@ body {
 }
 
 .buscador_botones {
-  width: 26%;
+  width: 150px;
+  padding: 16px;
 }
 
 .buscador_botones a {

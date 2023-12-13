@@ -24,45 +24,44 @@ body {
 
 .cabecera_contenedor_buscador {
   width: 78.88889%;
+  padding: 32px 0 32px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .buscador {
-  display: flex;
   width: 100%;
-  padding: 2% 0 2% 0;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
 }
 
 .buscador_logo {
+  width: 15.49295%;
   display: flex;
-  width: 20%;
-  /* justify-content: center; */
   align-items: center;
 }
 
-/* .buscador_logo-img1 {
-  width: 25%;
+.buscador_logo-img1 {
+  width: 30.6818%;
 }
 
 .buscador_logo-img2 {
-  width: 50%;
-} */
+  width: 69.318181%;
+}
 
 #ctn-bars-search {
   display: flex;
-  width: 34.55%;
+  width: 34.59507%;
   padding: 1% 1%;
   background: #8888883f;
   border-radius: 20px;
 }
 
 #inputSearch {
-  width: 90%;
+  width: 91.135734%;
   background: #88888800;
   border: none;
   border-bottom: 1px solid #c8c8c8;
@@ -75,31 +74,30 @@ body {
 }
 
 .buscador_botones {
-  width: 20%;
+  width: 16.02112%;
 }
 
 .buscador_botones a {
+  width: 100%;
+  height: 1vh;
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
   text-decoration: none;
   color: var(--azul-100, #2a7ae4);
   font-family: "Raleway";
-  font-size: 1.25vw;
+ 
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   border: 2px solid var(--azul-100, #2a7ae4);
 }
 
-.boton_login-regitro {
-  display: flex;
-  padding: 4.5%;
-  justify-content: center;
-  align-items: center;
-  /* gap: 10px; */
-  /* flex-shrink: 0; */
-  border: 1px solid #000;
-}
-
-.boton_login-regitro:hover {
+.buscador_botones a:hover {
   background-color: #2a7ae4;
   border: 1px solid #2a7ae4;
   color: #ffffff;
@@ -168,71 +166,67 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  width: 100%;
-  height: 313px;
-  margin: auto;
-  display: flex;
-  /* justify-content: center; */
+  padding: 32px;
+  height: 35vh;
 }
 
 .contenedor_presentacion {
-  width: 78.8889%;
-  margin: auto;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-evenly; */
-  /* align-items: flex-start; */
+  width: 78.88888vw;
+  height: 26vh;
+  display: flex;
+  align-items: flex-end;
+ margin: 0 auto;
+ 
 }
 
 .texto_presentacion {
-  width: 100%;
-  margin: 0;
+  
+  width: 78.8889vw;
+  height: 25.5vh;
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  justify-content: flex-end;
   align-items: flex-start;
-  gap: 18px;
-}
-
-.texto_presentacion a {
-  text-decoration: none;
+  gap: 1.75em;
 }
 
 .texto_presentacion h1 {
+  width: 100%;
   color: #ffffff;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 4.225vw;
+  font-size: 2em;
   /* line-height: 61px; */
 }
 
 .texto_presentacion h2 {
+  width: 100%;
   color: #ffffff;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 2.82685vw;
+  font-size: 1em;
   /* line-height: 26px; */
 }
 
-.boton_consola {
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5%;
-  border: none;
-  width: 20%;
-  /* height: 1%; */
-  background-color: #2a7ae4;
+.texto_presentacion a {
+  width: 100px;
+  height: 26px;
+  text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 1.41342vw;
-  /* line-height: 19px; */
+  font-size: 0.75em;
+}
+
+.boton_consola {
+  display: flex;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a7ae4;
+  color: #fff;
 }
 
 .boton_consola:hover {
@@ -240,6 +234,7 @@ body {
 }
 
 /* Inicio lineas de productos */
+/* topo */
 
 .lineas_productos_cont {
   width: 100%;
@@ -264,46 +259,36 @@ body {
   align-items: center;
 }
 
-.topo h2 {
-  /* font-size: 1.75vw; */
+.topo h3 {
+  font-size: 1.25em;
 }
 
 .lineadeproducto_boton {
   display: flex;
   align-items: center;
-  gap: 21px;
+  gap: 5px;
 }
 
 .lineadeproducto_boton a {
   text-decoration: none;
-  color: var(--azul-100, #2a7ae4);
-  font-family: "Raleway";
-  /* font-size: 1.25vw; */
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
 }
 
 .boton-ver-todo {
-  width: 100%;
-  height: 23px;
+  padding: 0 3px 0 3px;
   color: #2a7ae4;
   font-family: "Raleway";
-  /* font-size: 1.25vw; */
+  font-size: 1em;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
-.boton-ver-todo:hover {
-  transform: scale(1.1);
-}
 
 .boton-vector {
-  width: 30%;
-  height: 24px;
+  width: 1em;
 }
 
+/* galerias */
 .productos-contenedor {
   width: 100%;
   height: 252px;
@@ -311,6 +296,7 @@ body {
   align-items: flex-start;
   gap: 28px;
 }
+
 
 .producto_a1,
 .producto_a2,
@@ -362,6 +348,60 @@ body {
   box-shadow: 5px 5px 5px #464646;
 }
 
+.producto_a1 h3,
+.producto_a2 h3,
+.producto_a3 h3,
+.producto_a4 h3,
+.producto_a5 h3,
+.producto_a6 h3,
+.producto_b1 h3,
+.producto_b2 h3,
+.producto_b3 h3,
+.producto_b4 h3,
+.producto_b5 h3,
+.producto_b6 h3,
+.producto_c1 h3,
+.producto_c2 h3,
+.producto_c3 h3,
+.producto_c4 h3,
+.producto_c5 h3,
+.producto_c6 h3 {
+  align-self: stretch;
+  color: var(--preto-100, #464646);
+  font-family: "Raleway";
+  font-size: 0.875em;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.producto_a1 h2,
+.producto_a2 h2,
+.producto_a3 h2,
+.producto_a4 h2,
+.producto_a5 h2,
+.producto_a6 h2,
+.producto_b1 h2,
+.producto_b2 h2,
+.producto_b3 h2,
+.producto_b4 h2,
+.producto_b5 h2,
+.producto_b6 h2,
+.producto_c1 h2,
+.producto_c2 h2,
+.producto_c3 h2,
+.producto_c4 h2,
+.producto_c5 h2,
+.producto_c6 h2 {
+  align-self: stretch;
+  color: var(--preto-100, #464646);
+  font-family: "Raleway";
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .producto_a1 a,
 .producto_a2 a,
 .producto_a3 a,
@@ -380,15 +420,15 @@ body {
 .producto_c4 a,
 .producto_c5 a,
 .producto_c6 a {
-  text-decoration: none;
+  width: 77.240963%;
+  margin: 0 auto;
   color: var(--azul-100, #2a7ae4);
   font-family: "Raleway";
-  /* font-size: 1.15vw; */
+  font-size: 1em;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin: 0 auto;
-  height: 20px;
+  text-decoration: none;
 }
 
 .producto_a1 a:hover,
@@ -555,17 +595,19 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 112px;
+  /* gap: 112px; */
 }
 
 .formulario_rodapie-contenedor-logo-texto {
+  width: 50.84507%;
   display: flex;
-  gap: 80px;
+  flex-direction: column;
+  gap: 13px;
 }
 
 .formulario_rodapie-logo-texto {
   display: flex;
-  width: 40.84507%;
+  width: 33.84507%;
   height: 50px;
   justify-content: center;
   align-items: center;
@@ -758,17 +800,14 @@ body {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5vw;
+  font-size: 1em;
+  text-align: center;
   color: #464646;
 }
 
 /*** width 1024px ***/
 
 @media (max-width: 1024px) {
-  .formulario_rodapie-links ul {
-    width: 120%;
-    gap: 14px;
-  }
 }
 
 /*** width 768px ***/
@@ -782,82 +821,25 @@ body {
   .producto_c6 {
     display: none;
   }
-
-  .formulario_rodapie-contenedor-logo-texto {
-    display: flex;
-    flex-direction: column;
-    gap: 36px;
-  }
-
-  .formulario_rodapie-logo-texto {
-    width: 100%;
-  }
 }
 
 /*** width 644 ***/
 
 @media (max-width: 644px) {
-  .buscador_logo {
+  /* .buscador_logo {
     width: 33.5%;
-  }
+  } */
 }
 
 /*** width 390 px ***/
 
 @media (max-width: 390px) {
   .buscador_logo {
-    width: 50%;
-  }
-
-  .buscador_logo-img1 {
-    width: 20%;
-  }
-
-  .buscador_logo-img2 {
-    width: 55%;
+    width: 39.910505%;
   }
 
   .buscador_botones {
-    width: 40%;
-  }
-
-  .buscador_botones a {
-    font-size: 72%;
-  }
-
-  .boton_login-regitro {
-    font-size: 100%;
-  }
-
-  #ctn-bars-search {
-    display: none;
-  }
-
-  .texto_presentacion h1 {
-    font-size: 9vw;
-  }
-
-  .texto_presentacion h2 {
-    font-size: 4.5vw;
-  }
-
-  .texto_presentacion a {
-    width: 40%;
-    font-size: 2.25vw;
-  }
-
-  .topo h2 {
-    font-size: 100%;
-  }
-
-  .lineadeproducto_boton a {
-    padding-top: 4px;
-    font-size: 80%;
-  }
-
-  .boton-vector {
-    width: 16%;
-    height: 16px;
+    width: 33.910505%;
   }
 
   .producto_a3,
@@ -865,50 +847,34 @@ body {
   .producto_b3,
   .producto_b4,
   .producto_c3,
-  .producto_c4 {
+  .producto_c4,
+  #ctn-bars-search {
     display: none;
   }
 
-  .formulario_contenedor {
-    margin: 0 auto;
+  .formulario_contenedor{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 24px;
   }
 
-  /* .producto_a1 h2
-  .producto_a2 h2,
-  .producto_a3 h2,
-  .producto_a4 h2,
-  .producto_a5 h2,
-  .producto_a6 h2,
-  .producto_b1 h2,
-  .producto_b2 h2,
-  .producto_b3 h2,
-  .producto_b4 h2,
-  .producto_b5 h2,
-  .producto_b6 h2,
-  .producto_c1 h2,
-  .producto_c2 h2,
-  .producto_c3 h2,
-  .producto_c4 h2,
-  .producto_c5 h2,
-  .producto_c6 h2 {
-    font-size: 2vw;
-  } */
-
-  .formulario_rodapie-contenedor-logo-texto {
+  .formulario_rodapie-contenedor-logo-texto{
+    width: 100%;
+    display: flex;
     align-items: center;
-    width: 60%;
   }
 
   .formulario_rodapie-links ul {
-    width: 100%;
+    display: flex;
     align-items: center;
+    
   }
 
-  .formulario__rodapie_titulo-campos-datos {
+  .formulario__rodapie_titulo-campos-datos{
     width: 100%;
   }
+
+  
 }
