@@ -90,7 +90,7 @@ body {
   text-decoration: none;
   color: var(--azul-100, #2a7ae4);
   font-family: "Raleway";
- 
+
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -167,7 +167,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   padding: 32px;
-  height: 35vh;
+  /* height: 35vh; */
 }
 
 .contenedor_presentacion {
@@ -175,12 +175,10 @@ body {
   height: 26vh;
   display: flex;
   align-items: flex-end;
- margin: 0 auto;
- 
+  margin: 0 auto;
 }
 
 .texto_presentacion {
-  
   width: 78.8889vw;
   height: 25.5vh;
   display: flex;
@@ -234,8 +232,8 @@ body {
 }
 
 /* Inicio lineas de productos */
-/* topo */
 
+/* topo */
 .lineas_productos_cont {
   width: 100%;
   display: flex;
@@ -283,7 +281,6 @@ body {
   line-height: normal;
 }
 
-
 .boton-vector {
   width: 1em;
 }
@@ -296,7 +293,6 @@ body {
   align-items: flex-start;
   gap: 28px;
 }
-
 
 .producto_a1,
 .producto_a2,
@@ -420,7 +416,7 @@ body {
 .producto_c4 a,
 .producto_c5 a,
 .producto_c6 a {
-  width: 77.240963%;
+  width: 90%;
   margin: 0 auto;
   color: var(--azul-100, #2a7ae4);
   font-family: "Raleway";
@@ -582,7 +578,7 @@ body {
 /* section formulario */
 
 .formulario {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: center;
   padding: 64px 0 64px 0;
@@ -607,7 +603,7 @@ body {
 
 .formulario_rodapie-logo-texto {
   display: flex;
-  width: 33.84507%;
+  width: 30.555555%;
   height: 50px;
   justify-content: center;
   align-items: center;
@@ -638,10 +634,8 @@ body {
 
 .formulario_rodapie-links li a {
   text-decoration: none;
-
   color: #464646;
   font-family: "Raleway";
-  /* font-size: 16px; */
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -805,10 +799,6 @@ body {
   color: #464646;
 }
 
-/*** width 1024px ***/
-
-@media (max-width: 1024px) {
-}
 
 /*** width 768px ***/
 
@@ -821,15 +811,18 @@ body {
   .producto_c6 {
     display: none;
   }
+
+  .formulario_rodapie-contenedor-logo-texto {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .formulario_rodapie-logo-texto {
+    width: 57.142857%;
+  }
 }
 
-/*** width 644 ***/
-
-@media (max-width: 644px) {
-  /* .buscador_logo {
-    width: 33.5%;
-  } */
-}
 
 /*** width 390 px ***/
 
@@ -852,7 +845,7 @@ body {
     display: none;
   }
 
-  .formulario_contenedor{
+  .formulario_contenedor {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -860,21 +853,25 @@ body {
     gap: 24px;
   }
 
-  .formulario_rodapie-contenedor-logo-texto{
+  .formulario_rodapie-contenedor-logo-texto {
     width: 100%;
     display: flex;
     align-items: center;
   }
+
+  .formulario_rodapie-logo-texto {
+    width: 57.142857%;
+  }
+
+  
 
   .formulario_rodapie-links ul {
     display: flex;
     align-items: center;
-    
   }
 
-  .formulario__rodapie_titulo-campos-datos{
+  .formulario__rodapie_titulo-campos-datos {
     width: 100%;
   }
-
-  
 }
+
