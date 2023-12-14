@@ -8,13 +8,10 @@ body {
   background: #f5f5f5;
 }
 
-/*** width 1440px ***/
-
-/* header */
+/* topo */
 
 .cabecera_contenedor {
   width: 100%;
-  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,14 +41,6 @@ body {
   align-items: center;
 }
 
-.buscador_logo-img1 {
-  width: 30.6818%;
-}
-
-.buscador_logo-img2 {
-  width: 69.318181%;
-}
-
 #ctn-bars-search {
   display: flex;
   width: 34.59507%;
@@ -61,7 +50,8 @@ body {
 }
 
 #inputSearch {
-  width: 91.135734%;
+  width: 90%;
+  height: 2em;
   background: #88888800;
   border: none;
   border-bottom: 1px solid #c8c8c8;
@@ -69,166 +59,56 @@ body {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.25vw;
+  /* font-size: 1rem; */
   transition: width 2s;
 }
 
-.buscador_botones {
-  width: 16.02112%;
-}
-
-.buscador_botones a {
-  width: 100%;
-  height: 1vh;
-  display: flex;
-  padding: 16px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-
-  text-decoration: none;
-  color: var(--azul-100, #2a7ae4);
-  font-family: "Raleway";
-
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  border: 2px solid var(--azul-100, #2a7ae4);
-}
-
-.buscador_botones a:hover {
-  background-color: #2a7ae4;
-  border: 1px solid #2a7ae4;
-  color: #ffffff;
-}
-
-/* ul_box-search*/
-
-#box-search {
-  position: fixed;
-  top: 16%;
-  left: 50%;
-  transform: translate(-55%);
-  width: 50%;
-  background-color: #ffffff;
-  overflow: hidden;
-  display: none;
-  z-index: 6;
-}
-
-#box-search a {
-  text-decoration: none;
-  display: block;
-  width: 55%;
-  text-align: left;
-  color: #464646;
-  padding: 0.75em 1.25em;
-  line-height: 25px;
-  letter-spacing: 1px;
-}
-
 .fa-solid {
-  padding: inherit;
-}
-
-.fa-solid:hover {
-  color: #2a7ae4;
-  transform: scale(1.3);
-}
-
-#box-search li a:hover {
-  background: #f5f5f5;
-}
-
-#cover-ctn-search {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 5;
-  display: none;
-}
-
-/* main */
-
-/* section banner presentacion */
-
-.banner_presentacion {
-  background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0) 41.15%,
-      rgba(0, 0, 0, 0.8) 100%
-    ),
-    url(presentacion.jpeg), lightgray 50% / cover no-repeat;
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 32px;
-  /* height: 35vh; */
-}
-
-.contenedor_presentacion {
-  width: 78.88888vw;
-  height: 26vh;
   display: flex;
-  align-items: flex-end;
-  margin: 0 auto;
-}
-
-.texto_presentacion {
-  width: 78.8889vw;
-  height: 25.5vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1.75em;
-}
-
-.texto_presentacion h1 {
-  width: 100%;
-  color: #ffffff;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2em;
-  /* line-height: 61px; */
-}
-
-.texto_presentacion h2 {
-  width: 100%;
-  color: #ffffff;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1em;
-  /* line-height: 26px; */
-}
-
-.texto_presentacion a {
-  width: 100px;
-  height: 26px;
-  text-decoration: none;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 0.75em;
-}
-
-.boton_consola {
-  display: flex;
-  padding: 1em;
-  justify-content: center;
   align-items: center;
-  background-color: #2a7ae4;
-  color: #fff;
+  padding: 1px 1px 1px 13px;
 }
 
-.boton_consola:hover {
-  background: #464646;
+/* Descripción producto */
+
+.descripcion {
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor_descripcion {
+  width: 78.88888%;
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.contenedor_imagen {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor_imagen img {
+  width: 80%;
+}
+
+.contendor_descripcion {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+
+  flex-flow: column;
+  gap: 13px;
+
+  text-align: justify;
+}
+
+.contendor_descripcion h3 {
+  font-size: 2em;
 }
 
 /* Inicio lineas de productos */
@@ -245,7 +125,7 @@ body {
   width: 78.88889%;
   flex-direction: column;
   align-items: center;
-  /* gap: 10%; */
+  gap: 33px;
 }
 
 .topo {
@@ -288,10 +168,12 @@ body {
 /* galerias */
 .productos-contenedor {
   width: 100%;
-  height: 252px;
+  height: auto;
   display: flex;
-  align-items: flex-start;
-  gap: 28px;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  flex-flow: wrap;
+  gap: 23px;
 }
 
 .producto_a1,
@@ -312,13 +194,14 @@ body {
 .producto_c4,
 .producto_c5,
 .producto_c6 {
-  width: 100%;
-  height: 252px;
+  width: 20%;
+  height: 297px;
+  margin: 7px;
+  padding: 7px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: stretch;
-  gap: 8px;
+  border: 1px solid #46464641;
+  gap: 18px;
 }
 
 .producto_a1:hover,
@@ -340,7 +223,7 @@ body {
 .producto_c5:hover,
 .producto_c6:hover {
   border: 1px solid #a2a2a2;
-  padding: 5px;
+
   box-shadow: 5px 5px 5px #464646;
 }
 
@@ -416,7 +299,7 @@ body {
 .producto_c4 a,
 .producto_c5 a,
 .producto_c6 a {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   color: var(--azul-100, #2a7ae4);
   font-family: "Raleway";
@@ -425,6 +308,7 @@ body {
   font-weight: 700;
   line-height: normal;
   text-decoration: none;
+  text-align: center;
 }
 
 .producto_a1 a:hover,
@@ -445,10 +329,15 @@ body {
 .producto_c4 a:hover,
 .producto_c5 a:hover,
 .producto_c6 a:hover {
-  transform: scale(1.08);
+  color: #464646;
+  text-decoration: underline;
+  transform: scale(1.2);
 }
 
 .skill_img-A1 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoA1.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -456,6 +345,9 @@ body {
 }
 
 .skill_img-A2 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoA2.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -463,6 +355,9 @@ body {
 }
 
 .skill_img-A3 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoA3.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -470,6 +365,9 @@ body {
 }
 
 .skill_img-A4 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoA4.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -477,6 +375,9 @@ body {
 }
 
 .skill_img-A5 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoA5.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -484,6 +385,9 @@ body {
 }
 
 .skill_img-A6 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoA6.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -491,6 +395,9 @@ body {
 }
 
 .skill_img-B1 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoB1.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -498,6 +405,9 @@ body {
 }
 
 .skill_img-B2 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoB2.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -505,6 +415,9 @@ body {
 }
 
 .skill_img-B3 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoB3.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -512,6 +425,9 @@ body {
 }
 
 .skill_img-B4 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoB4.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -519,6 +435,9 @@ body {
 }
 
 .skill_img-B5 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoB5.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -526,6 +445,9 @@ body {
 }
 
 .skill_img-B6 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoB6.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -533,6 +455,9 @@ body {
 }
 
 .skill_img-C1 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoC1.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -540,6 +465,9 @@ body {
 }
 
 .skill_img-C2 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoC2.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -547,6 +475,9 @@ body {
 }
 
 .skill_img-C3 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoC3.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -554,6 +485,9 @@ body {
 }
 
 .skill_img-C4 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoC4.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -561,6 +495,9 @@ body {
 }
 
 .skill_img-C5 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoC5.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
@@ -568,21 +505,56 @@ body {
 }
 
 .skill_img-C6 {
+  margin: 0 auto;
+  width: 176px;
+  height: 174px;
   background: url(productoC6.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   flex: 1 0 0;
   align-self: stretch;
 }
 
+.producto_a h3 {
+  width: 176px;
+  height: 16px;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.44px;
+  color: #464646;
+  align-self: stretch;
+}
+
+.producto_a h2 {
+  width: 176px;
+  height: 19px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.78px;
+  color: #464646;
+
+  align-self: stretch;
+}
+
+.producto_a a {
+  width: 100px;
+  height: 19px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.78px;
+  color: #2a7ae4;
+}
+
 /* Footer */
 /* section formulario */
 
 .formulario {
-  /* width: 100%; */
   display: flex;
   justify-content: center;
   padding: 64px 0 64px 0;
-  margin-top: 7%;
+  margin-top: 32px;
   background-color: #eaf2fd;
 }
 
@@ -591,19 +563,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  /* gap: 112px; */
+  gap: 112px;
 }
 
 .formulario_rodapie-contenedor-logo-texto {
-  width: 50.84507%;
+  width: 49.29577%;
   display: flex;
-  flex-direction: column;
-  gap: 13px;
+  gap: 80px;
 }
 
 .formulario_rodapie-logo-texto {
   display: flex;
-  width: 30.555555%;
+  width: 37.931034%;
   height: 50px;
   justify-content: center;
   align-items: center;
@@ -624,18 +595,20 @@ body {
 
 .formulario_rodapie-links ul {
   display: flex;
-  width: 110%;
+  width: 176px;
   height: 234px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 21px;
+  gap: 24px;
   flex-shrink: 0;
 }
 
 .formulario_rodapie-links li a {
   text-decoration: none;
+
   color: #464646;
   font-family: "Raleway";
+  /* font-size: 16px; */
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -652,7 +625,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 13px;
+  gap: 10px;
   flex-shrink: 0;
 }
 
@@ -783,7 +756,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 2em 1em 2em 1em;
+  padding: 2rem 1rem 2rem 1rem;
   background: #ffffff;
 }
 
@@ -795,90 +768,262 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 1em;
-  text-align: center;
   color: #464646;
 }
 
-
-/*** width 768px ***/
-
-@media (max-width: 768px) {
+/*** width: 1024px ***/
+@media (max-width: 1024px) {
+  .producto_a1,
+  .producto_a2,
+  .producto_a3,
+  .producto_a4,
   .producto_a5,
   .producto_a6,
+  .producto_b1,
+  .producto_b2,
+  .producto_b3,
+  .producto_b4,
   .producto_b5,
   .producto_b6,
+  .producto_c1,
+  .producto_c2,
+  .producto_c3,
+  .producto_c4,
   .producto_c5,
   .producto_c6 {
-    display: none;
+    width: 29.6%;
   }
 
   .formulario_rodapie-contenedor-logo-texto {
+    width: 50%;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .formulario_rodapie-logo-texto {
+    width: 59.259259%;
+  }
+}
+
+/*** width: 900px ***/
+@media (max-width: 900px) {
+  .producto_a1,
+  .producto_a2,
+  .producto_a3,
+  .producto_a4,
+  .producto_a5,
+  .producto_a6,
+  .producto_b1,
+  .producto_b2,
+  .producto_b3,
+  .producto_b4,
+  .producto_b5,
+  .producto_b6,
+  .producto_c1,
+  .producto_c2,
+  .producto_c3,
+  .producto_c4,
+  .producto_c5,
+  .producto_c6 {
+    width: 28%;
+  }
+}
+
+/*** width 768px ***/
+@media (max-width: 768px) {
+  .buscador {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .descripcion {
     width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 113px;
+    margin-bottom: 113px;
+  }
+
+  .contenedor_descripcion {
+    width: 78.888888%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .contenedor_imagen {
+    width: 100%;
+    margin: 0 auto;
+
     display: flex;
     align-items: center;
   }
 
-  .formulario_rodapie-logo-texto {
-    width: 57.142857%;
+  .contendor_descripcion {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .productos-contenedor {
+    gap: 0;
+  }
+
+  .producto_a1,
+  .producto_a2,
+  .producto_a3,
+  .producto_a4,
+  .producto_a5,
+  .producto_a6,
+  .producto_b1,
+  .producto_b2,
+  .producto_b3,
+  .producto_b4,
+  .producto_b5,
+  .producto_b6,
+  .producto_c1,
+  .producto_c2,
+  .producto_c3,
+  .producto_c4,
+  .producto_c5,
+  .producto_c6 {
+    width: 30.333333%;
+  }
+
+  .skill_img-A1,
+  .skill_img-A2,
+  .skill_img-A3,
+  .skill_img-A4,
+  .skill_img-A4,
+  .skill_img-A6,
+  .skill_img-B1,
+  .skill_img-B2,
+  .skill_img-B3,
+  .skill_img-B4,
+  .skill_img-B5,
+  .skill_img-B6,
+  .skill_img-C1,
+  .skill_img-C2,
+  .skill_img-C3,
+  .skill_img-C4,
+  .skill_img-C5,
+  .skill_img-C6 {
+    width: 95%;
   }
 }
 
-
-/*** width 390 px ***/
-
+/*** width 390px ***/
 @media (max-width: 390px) {
-  .buscador{
+  .buscador {
     display: flex;
     flex-direction: column;
     gap: 19px;
   }
-  
+
   .buscador_logo {
-    width: 70.4%;
-    
+    width: 73.4%;
+    display: flex;
+    justify-content: center;
   }
 
-  .buscador_botones {
-    width: 33.910505%;
+  #ctn-bars-search {
+    width: 80%;
   }
 
-  .producto_a3,
-  .producto_a4,
-  .producto_b3,
-  .producto_b4,
-  .producto_c3,
-  .producto_c4,
+  .topo {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 21px;
+  }
+
+  .topo h3 {
+    text-align: center;
+  }
+
   #ctn-bars-search {
     display: none;
+  }
+
+  .productos-contenedor {
+    display: flex;
+    justify-content: center;
+  }
+
+  .skill_img-A1 {
+    margin: 0 auto;
+  }
+
+  .producto_a1,
+  .producto_a2,
+  .producto_a3,
+  .producto_a4,
+  .producto_a5,
+  .producto_a6,
+  .producto_b1,
+  .producto_b2,
+  .producto_b3,
+  .producto_b4,
+  .producto_b5,
+  .producto_b6,
+  .producto_c1,
+  .producto_c2,
+  .producto_c3,
+  .producto_c4,
+  .producto_c5,
+  .producto_c6 {
+    width: 100%;
+    height: 327px;
+
+    padding: 21px 13px 21px 13px;
+  }
+
+  .skill_img-A1,
+  .skill_img-A2,
+  .skill_img-A3,
+  .skill_img-A4,
+  .skill_img-A4,
+  .skill_img-A6,
+  .skill_img-B1,
+  .skill_img-B2,
+  .skill_img-B3,
+  .skill_img-B4,
+  .skill_img-B5,
+  .skill_img-B6,
+  .skill_img-C1,
+  .skill_img-C2,
+  .skill_img-C3,
+  .skill_img-C4,
+  .skill_img-C5,
+  .skill_img-C6 {
+    width: 74%;
   }
 
   .formulario_contenedor {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
   }
 
   .formulario_rodapie-contenedor-logo-texto {
     width: 100%;
-    display: flex;
+    flex-direction: column;
     align-items: center;
   }
 
   .formulario_rodapie-logo-texto {
-    width: 57.142857%;
+    width: 63.768115%;
   }
 
-  
-
   .formulario_rodapie-links ul {
-    display: flex;
     align-items: center;
   }
 
   .formulario__rodapie_titulo-campos-datos {
     width: 100%;
   }
-}
 
+  .pie_pagina-parrafo {
+    text-align: center;
+  }
+}
