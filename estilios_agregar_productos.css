@@ -4,8 +4,16 @@
   box-sizing: border-box;
 }
 
+html {           
+  scroll-behavior: smooth;
+}
+
 body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
   background: #f5f5f5;
+  /* border: 0.5px solid #464646; */
 }
 
 /* topo */
@@ -94,6 +102,26 @@ body {
   background-color: #2a7ae4;
   border: 1px solid #2a7ae4;
   color: #ffffff;
+}
+
+.boton_inicio{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.boton_inicio a{
+  text-decoration: none;
+}
+
+.boton_ir-inicio{
+  padding: 0 3px 0 3px;
+  color: #2a7ae4;
+  font-family: "Raleway";
+  /* font-size: 1em; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 /* Iniciar sesion */
@@ -509,7 +537,7 @@ body {
   .formulario_rodapie-logo-texto {
     width: 75%;
   }
-}
+}   
 
 /*** width 390px ***/
 @media (max-width: 390px) {

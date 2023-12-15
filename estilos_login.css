@@ -4,8 +4,16 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
   background: #f5f5f5;
+  /* border: 0.5px solid #464646; */
 }
 
 /* topo */
@@ -74,16 +82,17 @@ body {
 /* Iniciar sesion */
 
 .login {
-  width: 29.86111%;
-  height: 430px;
-  flex-shrink: 0;
+  width: 30%;
+  
+  
   margin-top: 160px;
   margin-left: 501px;
+  margin-bottom: 100px;
 }
 
 .login_contenedor {
   width: 100%;
-  height: 320px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,11 +101,11 @@ body {
 
 .login_title {
   width: 100%;
-  height: 29px;
+  /* height: 60px; */
   flex-shrink: 0;
   color: var(--preto-100, #464646);
   font-family: Raleway;
-  /* font-size: 18px; */
+  font-size: 1.5em;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -104,7 +113,7 @@ body {
 
 .login_email {
   width: 100%;
-  height: 63.127px;
+  height: 70px;
   flex-shrink: 0;
 
   border-radius: 4px;
@@ -130,27 +139,13 @@ body {
 
 .login_password {
   width: 100%;
-  height: 63.127px;
-  flex-shrink: 0;
-
-  display: flex;
-  padding: 16px 0px 0.276px 0px;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  gap: 25.724px;
-  flex: 1 0 0;
-
-  border-radius: 4px;
-  border: none;
-  background: var(--preto-branco, #fff);
-
-  color: var(--preto-50, #a2a2a2);
-  font-family: Raleway;
-  /* font-size: 16px; */
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px; /* 125% */
+    height: 70px;
+    flex-shrink: 0;
+    border: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .login_password::placeholder {
@@ -163,30 +158,36 @@ body {
 }
 
 .login_button {
-  width: 100%;
-  height: 62px;
-
-  padding: 12px, 16px, 12px, 16px;
-  gap: 10px;
-
-  display: flex;
-  width: 423px;
-  height: 62px;
-  padding: 12px 16px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
+  width: 50%;
+  padding: 13px 13px;
 
   background: var(--azul-100, #2a7ae4);
   border: none;
 
   color: var(--preto-branco, #fff);
   font-family: Raleway;
-  /* font-size: 18px; */
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+  font-size: 1em;
+  
+ 
+  
+}
+
+.login_button_inicio  {
+  display: flex;
+  width: 50%;
+  text-decoration: none;
+  padding: 13px 13px;
+  justify-content: center;
+  align-items: center;
+  background: var(--azul-100, #2a7ae4);
+  border: none;
+  color: var(--preto-branco, #fff);
+  font-family: "Raleway";
+  font-size: 1em;
+  
+  
+ 
+  
 }
 
 /* Footer */
