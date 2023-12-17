@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {      
+body {
   margin-left: auto;
   margin-right: auto;
   max-width: 1440px;
@@ -77,7 +77,7 @@ body {
 }
 
 .buscador_botones {
-  width: 16.02112%;
+  width: 12%;
 }
 
 .buscador_botones a {
@@ -230,7 +230,7 @@ body {
 }
 
 .boton_consola:hover {
-  background: #464646;
+  background: #46464600;
 }
 
 /* Inicio lineas de productos */
@@ -264,6 +264,33 @@ body {
   align-items: center;
 }
 
+.lineadeproducto_boton-principal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lineadeproducto_boton-principal a {
+  text-decoration: none;
+}
+
+#mostramasmenos {
+  width: 150px;
+  height: 26px;
+  margin: 0 auto;
+  padding: 0 3px 0 3px;
+  color: #fff;
+  font-family: "Raleway";
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  border: none;
+
+  background-color: #2a7ae4;
+}
+
 .lineadeproducto_boton {
   display: flex;
   align-items: center;
@@ -289,7 +316,21 @@ body {
 }
 
 /* galerias */
+
 .productos-contenedor {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  gap: 11px;
+}
+
+#extra {
+  display: none;
+}
+
+#extra {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -303,12 +344,10 @@ body {
   height: auto;
   margin: 15px auto;
   background-color: white;
-  /* border: 1px solid black; */
-  /* border-radius: 12px; */
 }
 
 .producto:hover {
-    border: 0.5px solid black;
+  border: 0.5px solid black;
   box-shadow: 5px 5px 5px #464646;
 }
 
@@ -318,38 +357,79 @@ body {
 }
 
 .nombre {
-  text-align: center;
-  background-color: rgb(0, 0, 0);
+  width: 176px;
   height: 25px;
-  padding-top: 4px;
-  color: white;
-  margin: 0;
-}
 
-.precio {
-  float: left;
-  margin: 13px auto;
-  padding-left: 10px;
+  margin: 0 auto;
+  padding-top: 4px;
   display: block;
-  width: 100%;
-  color: rgb(0, 0, 0);
-  font-weight: 650;
+
+  color: white;
+  text-align: center;
+
+  background-color: rgb(0, 0, 0);
 }
 
 .información {
   width: 176px;
+
   margin: 13px auto;
   padding-left: 10px;
+  display: block;
+
   color: rgb(0, 0, 0);
+  text-align: justify;
 }
 
-.ver_producto{
+.precio {
+  width: 100%;
+  height: 25px;
+
+  margin: 13px auto;
+  padding-left: 17px;
+  display: block;
+
+  color: rgb(0, 0, 0);
+  font-weight: 650;
+}
+
+.descuento {
+  width: 100%;
+  height: 13px;
+
+  margin: 13px auto;
+  padding-left: 10px;
+  display: block;
+
+  color: rgb(0, 0, 0);
+  font-weight: 650;
+}
+
+.porcentaje {
+  width: 30%;
+  height: 25px;
+
+  margin-left: 3px;
+  margin-bottom: 5px;
+  padding-top: 4px;
+  padding-left: 5px;
+  display: block;
+
+  font-size: 0.75em;
+  color: black;
+  font-weight: 600;
+
+  border: 1px solid rgba(255, 0, 0, 0.457);
+  background-color: rgba(255, 0, 0, 0.452);
+}
+
+.ver_producto {
   text-align: center;
   margin: 13px;
   padding: 13px;
 }
 
-.ver_producto:hover{
+.ver_producto:hover {
   background-color: #464646;
 }
 
@@ -366,7 +446,7 @@ body {
   text-decoration: none;
 }
 
-.ver_producto a:hover{
+.ver_producto a:hover {
   color: #ffffff;
 }
 
@@ -599,9 +679,36 @@ body {
 
 /*** width 768px ***/
 @media (max-width: 768px) {
-.buscador_logo{
-  width: 29.090909%;
-}
+  .buscador {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .buscador_logo {
+    width: 29.090909%;
+  }
+
+  #ctn-bars-search {
+    width: 70%;
+  }
+
+  .buscador_botones {
+    width: 33%;
+  }
+
+  #mostramasmenos {
+    display: none;
+  }
+
+  .lineadeproducto_boton-principal{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 16px;
+  }
 
   .formulario_rodapie-contenedor-logo-texto {
     width: 100%;

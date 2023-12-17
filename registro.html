@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login y regitro</title>
+    <title>Registro</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/90933225e5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="estilos_login.css">
+    <link rel="stylesheet" href="estilos_registrarse.css">
 </head>
 
 <body>
@@ -34,14 +34,22 @@
         <section>
             <form action="" class="login">
                 <div class="login_contenedor">
-                    <h2 class="login_title">Iniciar Sesión</h2>
-                    <input type="email" class="login_email" id="email" placeholder="Escriba su correo electronico"
-                        autocomplete="on" required>
-                    <input type="password" class="login_password" id="password" placeholder="Escriba su contraseña"
-                        autocomplete="on" required>
-                    <button type="submit" class="login_button" id="button">Entrar</button> 
+                    <h2 class="login_title">Registro de usuario</h2>
 
+                        <input type="text" class="nombre" id="nombre" placeholder="Escriba su nombre"
+                        autocomplete="on" required>
                     
+                        <input type="email" class="email" id="email" placeholder="Escriba su correo electronico"
+                        autocomplete="on" required>
+                    
+                        <input type="text" class="usuario" id="usuario" placeholder="Usuario"
+                        autocomplete="on" required>
+                    
+                        <input type="password" class="contrasena" id="contrasena" placeholder="Escriba su contraseña"
+                        autocomplete="on" required>
+                    
+                        <button type="submit" class="login_button" id="button">Registrarse</button>
+
                     <a class="login_button_inicio" href="agregar_productos.html">Ir a Agregar productos</a>
                     <a class="login_button_inicio" href="index.html">Ir al inicio</a>
 
@@ -53,7 +61,7 @@
 
     <footer>
         <!-- section formulario -->
-        <section class="formulario">
+        <!-- <section class="formulario">
             <div class="formulario_contenedor">
 
                 <div class="formulario_rodapie-contenedor-logo-texto">
@@ -92,7 +100,7 @@
                     <button type="submit" class="boton_enviar-mensaje">Enviar mensaje</button>
                 </form>
             </div>
-        </section>
+        </section> -->
 
         <!-- pie de pagina -->
 
@@ -103,9 +111,9 @@
         </section>
     </footer>
 
-    <script src="script_login.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="sweetAlert_lo.js"></script>
+    <script src="sweetAlert_re.js"></script>
 
 </body>
 
