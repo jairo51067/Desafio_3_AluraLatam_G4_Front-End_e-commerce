@@ -479,7 +479,9 @@ body {
     display: flex;
     flex-direction: column;
   }
-
+  #ctn-bars-search {
+  width: 100%;
+}
   .topo{
     height: auto;
     display: flex;
@@ -488,27 +490,6 @@ body {
     margin-top: 7%;
   }
 
-  .producto_a1,
-  .producto_a2,
-  .producto_a3,
-  .producto_a4,
-  .producto_a5,
-  .producto_a6,
-  .producto_b1,
-  .producto_b2,
-  .producto_b3,
-  .producto_b4,
-  .producto_b5,
-  .producto_b6,
-  .producto_c1,
-  .producto_c2,
-  .producto_c3,
-  .producto_c4,
-  .producto_c5,
-  .producto_c6 {
-    width: 40%;
-    
-  }
 
   .formulario_contenedor {
     width: 100%;
