@@ -50,6 +50,14 @@ body {
   align-items: center;
 }
 
+.buscador_logo-img1 a {
+  width: 30.6818%;
+}
+
+.buscador_logo-img2 a{
+  width: 69.318181%;
+}
+
 #ctn-bars-search {
   display: flex;
   width: 34.55%;
@@ -104,6 +112,7 @@ body {
   color: #ffffff;
 }
 
+
 .boton_inicio{
   display: flex;
   align-items: center;
@@ -114,15 +123,15 @@ body {
   text-decoration: none;
 }
 
-.boton_ir-inicio{
+/* .boton_ir-inicio{
   padding: 0 3px 0 3px;
   color: #2a7ae4;
   font-family: "Raleway";
-  /* font-size: 1em; */
+  font-size: 1em;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-}
+} */
 
 /* Iniciar sesion */
 

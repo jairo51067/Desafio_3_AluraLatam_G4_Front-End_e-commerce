@@ -50,6 +50,14 @@ body {
   align-items: center;
 }
 
+.buscador_logo-img1 a {
+  width: 30.6818%;
+}
+
+.buscador_logo-img2 a{
+  width: 69.318181%;
+}
+
 #ctn-bars-search {
   display: flex;
   width: 40%;

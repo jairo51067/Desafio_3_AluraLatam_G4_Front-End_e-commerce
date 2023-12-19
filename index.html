@@ -20,8 +20,9 @@
             <div class="cabecera_contenedor_buscador">
                 <div class="buscador">
                     <div class="buscador_logo">
-                        <img class="buscador_logo-img1" src="sports_esports_black_24dp 1.jpg" alt="logo control">
-                        <img class="buscador_logo-img2" src="Texto.jpg" alt="Texto logo">
+                        <a href="#"><img class="buscador_logo-img1" src="sports_esports_black_24dp 1.jpg"
+                                alt="logo control"></a>
+                        <a href="#"><img class="buscador_logo-img2" src="Texto.jpg" alt="Texto logo"></a>
                     </div>
                     <div class="buscador_barra" id="ctn-bars-search">
                         <input id="inputSearch" class="text_buscador" type="text" placeholder="  ¿Que desea buscar?">
@@ -40,9 +41,9 @@
                         <li><a href="#" target="_blank"><i class="fa-solid fa-magnifying-glass"></i>Star
                                 Wars</a>
                         </li>
-                        <li><a href="#" target="_blank"><i class="fa-solid fa-magnifying-glass"></i>Consolas</a>
+                        <li><a href="#Consolas" target="_blank"><i class="fa-solid fa-magnifying-glass"></i>Consolas</a>
                         </li>
-                        <li><a href="#" target="_blank"><i class="fa-solid fa-magnifying-glass"></i>Diversos</a>
+                        <li><a href="#Diversos" target="_blank"><i class="fa-solid fa-magnifying-glass"></i>Diversos</a>
                         </li>
                         <li><a href="#" target="_blank"><i class="fa-solid fa-magnifying-glass"></i>Producto
                                 XYZ</a></li>
@@ -73,6 +74,8 @@
             </div>
         </div>
 
+        <div id="cover-ctn-search"></div>
+
         <!--section banner presentacion-->
         <div class="banner_presentacion">
             <div class="contenedor_presentacion">
@@ -83,7 +86,7 @@
                 </div>
             </div>
         </div>
-        <div id="cover-ctn-search"></div>
+
     </header>
 
     <!--Inicio linea de producto -->
@@ -94,9 +97,14 @@
                 <!--primera linea de productos-->
                 <div class="topo">
                     <div class="lineadeproducto_boton-principal">
-                        <div><h3>Productos de moda</h3></div>
-                        <div><button id="mostramasmenos" onclick="mostar()">Mostrar más</button></div>
-                        <div><a class="boton-ver-todo" href="descripcion_productos.html">Ver todos los productos</a></div>
+                        <div>
+                            <h3>Productos de moda</h3>
+                        </div>
+
+                        <div><button id="mostrarmasmenos" onclick="mostar()">Mostrar más</button></div>
+
+                        <div><a class="boton-ver-todo" href="descripcion_productos.html">Ver todos los productos</a>
+                        </div>
                         <!-- <div><img class="boton-vector" src="Vector.png" alt="vector"></div> -->
                     </div>
                 </div>
@@ -169,153 +177,155 @@
 
                 <!-- <button id="mostramasmenos" onclick="mostar()">Mostrar mas</button> -->
 
-                <div class="extra" id="extra">
+                <div id="extra">
 
-                    <!--- Segunda linea de producto -->
-                    <div class="topo">
-                        <h3 id="Consolas">Consolas</h3>
-                        <div class="lineadeproducto_boton">
-                            <a class="boton-ver-todo" href="descripcion_productos.html">Ver todos los productos</a>
-                            <!-- <img class="boton-vector" src="Vector.png" alt="vector"> -->
+                    <div class="productos-contenedor">
+                        <!--- Segunda linea de producto -->
+                        <div class="topo">
+                            <h3 id="Consolas">Consolas</h3>
+                            <div class="lineadeproducto_boton">
+                                <a class="boton-ver-todo" href="descripcion_productos.html">Ver todos los productos</a>
+                                <!-- <img class="boton-vector" src="Vector.png" alt="vector"> -->
+                            </div>
+                        </div>
+
+                        <div class="producto">
+                            <div class="skill_img"><img src="productoB1.png" alt=""></div>
+                            <div class="nombre">Producto XYZ</div>
+                            <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                            <div class="precio"><mark>$ 54,00</mark></div>
+                            <div class="descuento"><del>$ 60.00</del></div>
+                            <div class="porcentaje">-10% </div>
+                            <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
+                        </div>
+
+                        <div class="producto">
+                            <div class="skill_img"><img src="productoB2.png" alt=""></div>
+                            <div class="nombre">Producto XYZ</div>
+                            <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                            <div class="precio"><mark>$ 54,00</mark></div>
+                            <div class="descuento"><del>$ 60.00</del></div>
+                            <div class="porcentaje">-10% </div>
+                            <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
+                        </div>
+
+                        <div class="producto">
+                            <div class="skill_img"><img src="productoB3.png" alt=""></div>
+                            <div class="nombre">Producto XYZ</div>
+                            <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                            <div class="precio"><mark>$ 54,00</mark></div>
+                            <div class="descuento"><del>$ 60.00</del></div>
+                            <div class="porcentaje">-10% </div>
+                            <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
+                        </div>
+
+                        <div class="producto">
+                            <div class="skill_img"><img src="productoB4.png" alt=""></div>
+                            <div class="nombre">Producto XYZ</div>
+                            <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                            <div class="precio"><mark>$ 54,00</mark></div>
+                            <div class="descuento"><del>$ 60.00</del></div>
+                            <div class="porcentaje">-10% </div>
+                            <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
+                        </div>
+
+                        <div class="producto">
+                            <div class="skill_img"><img src="productoB5.png" alt=""></div>
+                            <div class="nombre">Producto XYZ</div>
+                            <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                            <div class="precio"><mark>$ 54,00</mark></div>
+                            <div class="descuento"><del>$ 60.00</del></div>
+                            <div class="porcentaje">-10% </div>
+                            <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
+                        </div>
+
+                        <div class="producto">
+                            <div class="skill_img"><img src="productoB6.png" alt=""></div>
+                            <div class="nombre">Producto XYZ</div>
+                            <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                            <div class="precio"><mark>$ 54,00</mark></div>
+                            <div class="descuento"><del>$ 60.00</del></div>
+                            <div class="porcentaje">-10% </div>
+                            <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
+                        </div>
+
+                        <!--- Tercera linea de producto -->
+
+                        <div class="topo">
+                            <h3 id="Diversos">Diversos</h3>
+                            <div class="lineadeproducto_boton">
+                                <a class="boton-ver-todo" href="descripcion_productos.html">Ver todos los productos</a>
+                                <!-- <img class="boton-vector" src="Vector.png" alt="vector"> -->
+                            </div>
+                        </div>
+
+                        <div class="producto">
+                            <div class="skill_img"><img src="productoC1.png" alt=""></div>
+                            <div class="nombre">Producto XYZ</div>
+                            <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                            <div class="precio"><mark>$ 54,00</mark></div>
+                            <div class="descuento"><del>$ 60.00</del></div>
+                            <div class="porcentaje">-10% </div>
+                            <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
+                        </div>
+
+                        <div class="producto">
+                            <div class="skill_img"><img src="productoC2.png" alt=""></div>
+                            <div class="nombre">Producto XYZ</div>
+                            <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                            <div class="precio"><mark>$ 54,00</mark></div>
+                            <div class="descuento"><del>$ 60.00</del></div>
+                            <div class="porcentaje">-10% </div>
+                            <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
+                        </div>
+
+                        <div class="producto">
+                            <div class="skill_img"><img src="productoC3.png" alt=""></div>
+                            <div class="nombre">Producto XYZ</div>
+                            <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                            <div class="precio"><mark>$ 54,00</mark></div>
+                            <div class="descuento"><del>$ 60.00</del></div>
+                            <div class="porcentaje">-10% </div>
+                            <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
+                        </div>
+
+                        <div class="producto">
+                            <div class="skill_img"><img src="productoC4.png" alt=""></div>
+                            <div class="nombre">Producto XYZ</div>
+                            <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                            <div class="precio"><mark>$ 54,00</mark></div>
+                            <div class="descuento"><del>$ 60.00</del></div>
+                            <div class="porcentaje">-10% </div>
+                            <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
+                        </div>
+
+                        <div class="producto">
+                            <div class="skill_img"><img src="productoC5.png" alt=""></div>
+                            <div class="nombre">Producto XYZ</div>
+                            <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                            <div class="precio"><mark>$ 54,00</mark></div>
+                            <div class="descuento"><del>$ 60.00</del></div>
+                            <div class="porcentaje">-10% </div>
+                            <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
+                        </div>
+
+                        <div class="producto">
+                            <div class="skill_img"><img src="productoC6.png" alt=""></div>
+                            <div class="nombre">Producto XYZ</div>
+                            <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                            <div class="precio"><mark>$ 54,00</mark></div>
+                            <div class="descuento"><del>$ 60.00</del></div>
+                            <div class="porcentaje">-10% </div>
+                            <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
                         </div>
                     </div>
 
-                    <div class="producto">
-                        <div class="skill_img"><img src="productoB1.png" alt=""></div>
-                        <div class="nombre">Producto XYZ</div>
-                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
-                        <div class="precio"><mark>$ 54,00</mark></div>
-                        <div class="descuento"><del>$ 60.00</del></div>
-                        <div class="porcentaje">-10% </div>
-                        <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
-                    </div>
-
-                    <div class="producto">
-                        <div class="skill_img"><img src="productoB2.png" alt=""></div>
-                        <div class="nombre">Producto XYZ</div>
-                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
-                        <div class="precio"><mark>$ 54,00</mark></div>
-                        <div class="descuento"><del>$ 60.00</del></div>
-                        <div class="porcentaje">-10% </div>
-                        <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
-                    </div>
-
-                    <div class="producto">
-                        <div class="skill_img"><img src="productoB3.png" alt=""></div>
-                        <div class="nombre">Producto XYZ</div>
-                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
-                        <div class="precio"><mark>$ 54,00</mark></div>
-                        <div class="descuento"><del>$ 60.00</del></div>
-                        <div class="porcentaje">-10% </div>
-                        <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
-                    </div>
-
-                    <div class="producto">
-                        <div class="skill_img"><img src="productoB4.png" alt=""></div>
-                        <div class="nombre">Producto XYZ</div>
-                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
-                        <div class="precio"><mark>$ 54,00</mark></div>
-                        <div class="descuento"><del>$ 60.00</del></div>
-                        <div class="porcentaje">-10% </div>
-                        <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
-                    </div>
-
-                    <div class="producto">
-                        <div class="skill_img"><img src="productoB5.png" alt=""></div>
-                        <div class="nombre">Producto XYZ</div>
-                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
-                        <div class="precio"><mark>$ 54,00</mark></div>
-                        <div class="descuento"><del>$ 60.00</del></div>
-                        <div class="porcentaje">-10% </div>
-                        <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
-                    </div>
-
-                    <div class="producto">
-                        <div class="skill_img"><img src="productoB6.png" alt=""></div>
-                        <div class="nombre">Producto XYZ</div>
-                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
-                        <div class="precio"><mark>$ 54,00</mark></div>
-                        <div class="descuento"><del>$ 60.00</del></div>
-                        <div class="porcentaje">-10% </div>
-                        <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
-                    </div>
-
-                    <!--- Tercera linea de producto -->
-
-                    <div class="topo">
-                        <h3>Diversos</h3>
-                        <div class="lineadeproducto_boton">
-                            <a class="boton-ver-todo" href="descripcion_productos.html">Ver todos los productos</a>
-                            <!-- <img class="boton-vector" src="Vector.png" alt="vector"> -->
-                        </div>
-                    </div>
-
-                    <div class="producto">
-                        <div class="skill_img"><img src="productoC1.png" alt=""></div>
-                        <div class="nombre">Producto XYZ</div>
-                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
-                        <div class="precio"><mark>$ 54,00</mark></div>
-                        <div class="descuento"><del>$ 60.00</del></div>
-                        <div class="porcentaje">-10% </div>
-                        <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
-                    </div>
-
-                    <div class="producto">
-                        <div class="skill_img"><img src="productoC2.png" alt=""></div>
-                        <div class="nombre">Producto XYZ</div>
-                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
-                        <div class="precio"><mark>$ 54,00</mark></div>
-                        <div class="descuento"><del>$ 60.00</del></div>
-                        <div class="porcentaje">-10% </div>
-                        <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
-                    </div>
-
-                    <div class="producto">
-                        <div class="skill_img"><img src="productoC3.png" alt=""></div>
-                        <div class="nombre">Producto XYZ</div>
-                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
-                        <div class="precio"><mark>$ 54,00</mark></div>
-                        <div class="descuento"><del>$ 60.00</del></div>
-                        <div class="porcentaje">-10% </div>
-                        <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
-                    </div>
-
-                    <div class="producto">
-                        <div class="skill_img"><img src="productoC4.png" alt=""></div>
-                        <div class="nombre">Producto XYZ</div>
-                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
-                        <div class="precio"><mark>$ 54,00</mark></div>
-                        <div class="descuento"><del>$ 60.00</del></div>
-                        <div class="porcentaje">-10% </div>
-                        <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
-                    </div>
-
-                    <div class="producto">
-                        <div class="skill_img"><img src="productoC5.png" alt=""></div>
-                        <div class="nombre">Producto XYZ</div>
-                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
-                        <div class="precio"><mark>$ 54,00</mark></div>
-                        <div class="descuento"><del>$ 60.00</del></div>
-                        <div class="porcentaje">-10% </div>
-                        <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
-                    </div>
-
-                    <div class="producto">
-                        <div class="skill_img"><img src="productoC6.png" alt=""></div>
-                        <div class="nombre">Producto XYZ</div>
-                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
-                        <div class="precio"><mark>$ 54,00</mark></div>
-                        <div class="descuento"><del>$ 60.00</del></div>
-                        <div class="porcentaje">-10% </div>
-                        <!-- <div class="ver_producto"><a href="descripcion_productos.html">Ver producto</a></div> -->
-                    </div>
-
-                    <button id="mostramasmenos" onclick="ocultar()">Ver menos</button>
+                    <button id="mostrarmasmenos" onclick="ocultar()">Ver menos</button>
                 </div>
 
-              
-            </div>
 
+            </div>
+        </section>
     </main>
     <!--Final linea de producto-->
 
@@ -371,8 +381,9 @@
         </section>
     </footer>
 
+    <script src="script-buscador.js"></script>
+    <script src="script_masmenos.js"></script>
+
 </body>
-<script src="script-buscador.js"></script>
-<script src="script_masmenos.js"></script>
 
 </html>

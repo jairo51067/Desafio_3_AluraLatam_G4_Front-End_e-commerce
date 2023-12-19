@@ -20,28 +20,27 @@ body {
 
 .cabecera_contenedor {
   width: 100%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-
   background-color: #fff;
 }
 
 .cabecera_contenedor_buscador {
   width: 78.88889%;
+  padding: 13px 0 13px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .buscador {
-  display: flex;
   width: 100%;
-  padding: 2em 0 2em 0;
-  justify-content: flex-start;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  gap: 30px;
 }
 
 .buscador_logo {
@@ -49,6 +48,14 @@ body {
   width: 15.5%;
 
   align-items: center;
+}
+
+.buscador_logo-img1 a {
+  width: 30.6818%;
+}
+
+.buscador_logo-img2 a{
+  width: 69.318181%;
 }
 
 #ctn-bars-search {
@@ -79,15 +86,13 @@ body {
   padding: 1px 1px 1px 13px;
 }
 
-/* Iniciar sesion */
+/* Iniciar sesion */   
 
 .login {
-  width: 30%;
-  
-  
-  margin-top: 160px;
-  margin-left: 501px;
-  margin-bottom: 100px;
+  width: 35%;
+  margin-top: 90px;
+  margin-left: 500px;
+  margin-bottom: 90px;
 }
 
 .login_contenedor {
@@ -96,7 +101,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  gap: 27px;
 }
 
 .login_title {
@@ -157,7 +162,12 @@ body {
   line-height: 20px; /* 125% */
 }
 
-.login_button {
+.login a {
+  text-decoration: none;
+  width: 100%;
+}
+
+.login_button{
   width: 100%;
   padding: 13px 13px;
 
@@ -167,9 +177,6 @@ body {
   color: var(--preto-branco, #fff);
   font-family: Raleway;
   font-size: 1em;
-  
- 
-  
 }
 
 /* .login_button_inicio  {
@@ -183,11 +190,7 @@ body {
   border: none;
   color: var(--preto-branco, #fff);
   font-family: "Raleway";
-  font-size: 1em;
-  
-  
- 
-  
+  font-size: 1em; 
 } */
 
 /* Footer */
