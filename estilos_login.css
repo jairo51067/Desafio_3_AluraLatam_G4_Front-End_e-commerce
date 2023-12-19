@@ -179,19 +179,17 @@ body {
   font-size: 1em;
 }
 
-/* .login_button_inicio  {
-  display: flex;
-  width: 50%;
-  text-decoration: none;
-  padding: 13px 13px;
-  justify-content: center;
-  align-items: center;
-  background: var(--azul-100, #2a7ae4);
-  border: none;
-  color: var(--preto-branco, #fff);
+.login_button_inicio{
+  
+  margin: 21 auto;
+  
+  color: #2a7ae4;
   font-family: "Raleway";
-  font-size: 1em; 
-} */
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
 /* Footer */
 /* section formulario */

@@ -37,7 +37,6 @@ body {
 .buscador {
   display: flex;
   width: 100%;
-  padding: 2rem 0 2rem 0;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
@@ -136,6 +135,8 @@ body {
 /* Iniciar sesion */
 
 .agregar {
+  display: flex;
+  flex-direction: column;
   width: 38%;
   height: 560px;
   flex-shrink: 0;
@@ -233,6 +234,16 @@ body {
   line-height: normal;
 }
 
+.boton_ir-inicio{
+  margin: 21 auto;
+
+  color: #2a7ae4;
+  font-family: "Raleway";
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 /* Footer */
 /* section formulario */
 

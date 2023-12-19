@@ -38,9 +38,9 @@ body {
 .buscador {
   display: flex;
   width: 100%;
-  padding: 2rem 0 2rem 0;
+  padding: 1rem 0 1rem 0;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
   background-color: #fff;
   gap: 30px;
 }
@@ -96,9 +96,9 @@ body {
   z-index: 6;
 }
 
-#box-search li {
-  /* display: flex; */
-}
+/* #box-search li {
+  display: flex;
+} */
 
 #box-search a {
   text-decoration: none;
