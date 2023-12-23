@@ -245,9 +245,135 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+
+/* Inicio lineas de productos */
+
+/* topo */
+.lineas_productos_contenedor {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Linea_producto {
+  display: flex;
+  flex-flow: column;
+  width: 78.8888%;
+  height: max-content;
+  flex-wrap: wrap;
+  margin: 10px auto;
+}
+
+.topo {
+  margin: 13px auto;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lineadeproducto_boton {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.lineadeproducto_boton a {
+  text-decoration: none;
+}
+
+.boton-ver-todo {
+  padding: 0 3px 0 3px;
+  color: #2a7ae4;
+  font-family: "Raleway";
+  /* font-size: 1em; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.boton-vector {
+  width: 1em;
+}
+
+/* galerias */
+.productos-contenedor {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  gap: 11px;
+}
+
+.producto {
+  max-width: 100%;
+  height: auto;
+  margin: 15px auto;
+  background-color: white;
+  /* border: 1px solid black; */
+  /* border-radius: 12px; */
+}
+
+.producto:hover {
+    border: 0.5px solid black;
+  box-shadow: 5px 5px 5px #464646;
+}
+
+.skill_img {
+  overflow: hidden;
+  margin: 0;
+}
+
+.nombre {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  height: 25px;
+  padding-top: 4px;
+  color: white;
+  margin: 0;
+}
+
+.precio {
+  float: left;
+  margin: 13px auto;
+  padding-left: 10px;
+  display: block;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-weight: 650;
+}
+
+.información {
+  width: 176px;
+  margin: 13px auto;
+  padding-left: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.btn {
+  padding: 5px 10px;
+  border: none;
+  margin: 0 5px;
+  color: white;
+  border-radius: 50px;
+}
+
+.btn-editar {
+  background-color: green;
+}
+
+.btn-eliminar {
+  background-color: red;
+}
+
+
 /* Footer */
 /* section formulario */
-
 .formulario {
   width: 100%;
   display: flex;

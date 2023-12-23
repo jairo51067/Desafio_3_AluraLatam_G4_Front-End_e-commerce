@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>    
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/90933225e5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilios_agregar_productos.css">
-    <title>Agregar productos</title>     
+    <title>Agregar productos</title>
 </head>
 
 <body>
@@ -19,7 +19,8 @@
             <div class="cabecera_contenedor_buscador">
                 <div class="buscador">
                     <div class="buscador_logo">
-                        <a href="index.html"><img class="buscador_logo-img1" src="sports_esports_black_24dp 1.jpg" alt="logo control"></a>
+                        <a href="index.html"><img class="buscador_logo-img1" src="sports_esports.jpg"
+                                alt="logo control"></a>
                         <a href="index.html"><img class="buscador_logo-img2" src="Texto.jpg" alt="Texto logo"></a>
                     </div>
                     <!-- <div class="buscador_barra" id="ctn-bars-search">
@@ -36,82 +37,188 @@
 
                 </div>
     </header>
-    
+
     <main>
         <section>
             <form class="agregar">
-                <div class="agregar_contenedor">
+                <div class="agregar_contenedor" id="formulario">
                     <h2 class="agregar_title">Agregar nuevo producto</h2>
-                    <input type="url" class="agregar_imagen-url" id="agregar_url" placeholder="URL de la imagen"
-                        autocomplete="on" required>
-                    <input type="text" class="agregar_categoria" id="agregar_ctg" placeholder="Categoria"
-                        autocomplete="on" required>
-                    <input type="text" class="agregar_nombre-producto" id="agregar_producto"
-                        placeholder="Nombre del producto" autocomplete="on" required>
-                    <input type="text" class="agregar_precio-producto" id="agregar_precio"
-                        placeholder="Precio del producto" autocomplete="on" required>
-                    <input type="text" class="agregar_descripcion" id="agregar_desc" placeholder="Descripcion del producto"
-                        autocomplete="on" required>
-                    <button type="submit" class="agregar_producto-boton" id="agregar_btn">Agregar producto</button>
+
+                    <input type="url" class="agregar_imagen-url" id="url" placeholder="URL de la imagen">
+
+                    <input type="text" class="agregar_nombre-producto" id="nombre" placeholder="Nombre del producto">
+
+                    <input type="text" class="agregar_precio-producto" id="precio" placeholder="Precio del producto">
+
+                    <input type="text" class="agregar_descripcion" id="descripcion" placeholder="Descripcion del producto">
+
+                    <button type="submit" class="agregar_producto-boton" id="btnAgregarProducto">Agregar producto</button>
                 </div>
-                <div class="boton_inicio">
+
+                <!-- <div class="boton_inicio">
                     <a class="boton_ir-inicio" href="productos.html">Ir a productos</a>
-                </div>
-            
+                </div> -->
         </section>
+        <section class="lineas_productos_contenedor">
+            <div class="Linea_producto">
+
+                <!--lineas de productos-->
+                <!-- <div class="topo">
+                    <h3>Productos Nuevos</h3>
+                </div> -->
+
+                <!--primera-->
+                <!-- <div class="productos-contenedor">
+                    <div class="producto" id="producto">
+
+                    </div>
+
+
+                    <div class="producto">
+                        <div class="skill_img"><img src="productoA2.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                    </div> -->
+
+                    <!-- <div class="producto">
+                        <div class="skill_img"><img src="productoA3.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                    </div>
+
+                    <div class="producto">
+                        <div class="skill_img"><img src="productoA4.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                    </div>
+
+                    <div class="producto">
+                        <div class="skill_img"><img src="productoA5.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                    </div>
+
+                    <div class="producto">
+                        <div class="skill_img"><img src="productoA6.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                    </div> -->
+                    <!--segunda-->
+                    <!-- <div class="producto">
+                        <div class="skill_img"><img src="productoB1.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+
+                    </div>
+
+                    <div class="producto">
+                        <div class="skill_img"><img src="productoB2.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+
+                    </div>
+
+                    <div class="producto">
+                        <div class="skill_img"><img src="productoB3.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+
+                    </div>
+
+                    <div class="producto">
+                        <div class="skill_img"><img src="productoB4.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+
+                    </div>
+
+                    <div class="producto">
+                        <div class="skill_img"><img src="productoB5.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+
+                    </div>
+
+                    <div class="producto">
+                        <div class="skill_img"><img src="productoB6.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+
+                    </div> -->
+                    <!--tercera -->
+                    <!-- <div class="producto">
+                        <div class="skill_img"><img src="productoC1.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+
+                    </div>
+
+                    <div class="producto">
+                        <div class="skill_img"><img src="productoC2.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+
+                    </div>
+
+                    <div class="producto">
+                        <div class="skill_img"><img src="productoC3.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+
+                    </div>
+
+                    <div class="producto">
+                        <div class="skill_img"><img src="productoC4.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+
+                    </div>
+
+                    <div class="producto">
+                        <div class="skill_img"><img src="productoC5.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+
+                    </div>
+
+                    <div class="producto">
+                        <div class="skill_img"><img src="productoC6.png" alt=""></div>
+                        <div class="nombre">Producto XYZ</div>
+                        <div class="precio">$ 60,00</div>
+                        <div class="información">Lorem ipsum, dolor sit amet consectetur.</div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
     </main>
 
     <footer>
-        <!-- section formulario -->
-        <!-- <section class="formulario">
-            <div class="formulario_contenedor">
-
-                <div class="formulario_rodapie-contenedor-logo-texto">
-                    <div class="formulario_rodapie-logo-texto">
-                        <img class="formulario_rodapie-logo" src="sports_esports_black_24dp 1.jpg" alt="logo">
-                        <img class="formulario_rodapie-texto" src="Texto.jpg" alt="logo">
-                    </div>
-
-                    <div class="formulario_rodapie-links">
-                        <ul>
-                            <li><a href="#Quienes somos">Quienes somos</a></li>
-                            <li><a href="#Politica de privacidad">Politica de privacidad</a></li>
-                            <li><a href="#Programa de fidelidad">Programa de fidelidad</a></li>
-                            <li><a href="#Nuevas tiendas">Nuevas tiendas</a></li>
-                            <li><a href="#Quiero ser franquiciado">Quiero ser franquiciado</a></li>
-                            <li><a href="#Anucie aqui">Anucie aqui</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <form class="formulario__rodapie_titulo-campos-datos">
-
-                    <h2 class="formulario__rodapie_titulo">Hable con nosotros</h2>
-
-                    <div class="formulario__rodapie_nombre-mensaje">
-                        <label for="name" class="formulario__rodapie_nombre">Nombre</label><br>
-                        <input type="text" class="formulario__rodapie_mensaje" id="nombre_usuario"
-                            placelabel="Su nombre" autocomplete="on" required>
-                    </div>
-
-                    <div class="formulario__rodapie_campos-mensaje">
-                        <input type="text" class="formulario__rodapie_caja-mensaje" id="mensaje_usuario"
-                            placeholder="Escriba su mensaje" autocomplete="on" required>
-                    </div>
-
-                    <button type="submit" class="boton_enviar-mensaje">Enviar mensaje</button>
-                </form>
-            </div>
-        </section> -->
-
         <!-- pie de pagina -->
-
         <section>
             <div class="pie_pagina">
                 <h2 class="pie_pagina-parrafo">Desarrollado por Jairo A Cárdenas Mayo 2023</h2>
             </div>
         </section>
     </footer>
+
+    <script src="./app.js"></script>
 
 </body>
 
