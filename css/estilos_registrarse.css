@@ -128,7 +128,7 @@ body {
   border: none;
   background: var(--preto-branco, #fff);
 
-  color: #a2a2a2;
+  color: #595959;
   font-family: Raleway;
   
   font-style: normal;
@@ -140,7 +140,7 @@ body {
 .email,
 .usuario,
 .contrasena::placeholder {
-  color: #a2a2a2;
+  color: #595959;
   font-family: Raleway;
   
   font-style: normal;
@@ -152,7 +152,7 @@ body {
   width: 100%;
   padding: 13px 13px;
 
-  background: var(--azul-100, #2a7ae4);
+  background: var(--azul-100, #1252A0);
   border: none;
 
   color: var(--preto-branco, #fff);
@@ -172,7 +172,7 @@ body {
   padding: 13px 13px;
   justify-content: center;
   align-items: center;
-  background: var(--azul-100, #2a7ae4);
+  background: var(--azul-100, #1252A0);
   border: none;
   color: var(--preto-branco, #fff);
   font-family: "Raleway";
@@ -297,7 +297,7 @@ body {
 
   padding: 3px;
 
-  color: var(--preto-50, #a2a2a2);
+  color: var(--preto-50, #595959);
   font-family: "Raleway";
   
   font-style: normal;
@@ -370,7 +370,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--azul-100, #2a7ae4);
+  background: var(--azul-100, #1252A0);
   color: var(--preto-branco, #fff);
   font-family: Raleway;
   

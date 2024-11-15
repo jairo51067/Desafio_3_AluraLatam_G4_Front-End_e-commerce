@@ -86,13 +86,13 @@ body {
 
 .buscador_botones a {
   text-decoration: none;
-  color: var(--azul-100, #2a7ae4);
+  color: var(--azul-100, #1252A0);
   font-family: "Raleway";
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  border: 1px solid var(--azul-100, #2a7ae4);
+  border: 1px solid var(--azul-100, #1252A0);
 }
 
 .boton_login-regitro {     
@@ -106,8 +106,8 @@ body {
 }
 
 .boton_login-regitro:hover {
-  background-color: #2a7ae4;
-  border: 1px solid #2a7ae4;
+  background-color: #1252A0;
+  border: 1px solid #1252A0;
   color: #ffffff;
 }
 
@@ -125,7 +125,7 @@ body {
 
 /* .boton_ir-inicio{
   padding: 0 3px 0 3px;
-  color: #2a7ae4;
+  color: #1252A0;
   font-family: "Raleway";
   font-size: 1em;
   font-style: normal;
@@ -179,7 +179,7 @@ body {
   border: none;
   background: var(--preto-branco, #fff);
 
-  color: #a2a2a2;
+  color: #595959;
   font-family: Raleway;
   font-size: 16px;
   font-style: normal;
@@ -196,7 +196,7 @@ body {
   border: none;
   background: var(--preto-branco, #fff);
 
-  color: #a2a2a2;
+  color: #595959;
   font-family: Raleway;
   font-size: 16px;
   font-style: normal;
@@ -205,7 +205,7 @@ body {
 }
 
 .login_email::placeholder {
-  color: #a2a2a2;
+  color: #595959;
   font-family: Raleway;
   font-size: 16px;
   font-style: normal;
@@ -224,7 +224,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: var(--azul-100, #2a7ae4);
+  background: var(--azul-100, #1252A0);
   border: none;
 
   color: var(--preto-branco, #fff);
@@ -238,7 +238,7 @@ body {
 .boton_ir-inicio{
   margin: 21 auto;
 
-  color: #2a7ae4;
+  color: #1252A0;
   font-family: "Raleway";
   font-size: 1em;
   font-style: normal;
@@ -288,7 +288,7 @@ body {
 
 .boton-ver-todo {
   padding: 0 3px 0 3px;
-  color: #2a7ae4;
+  color: #1252A0;
   font-family: "Raleway";
   /* font-size: 1em; */
   font-style: normal;
@@ -489,7 +489,7 @@ body {
 
   padding: 3px;
 
-  color: var(--preto-50, #a2a2a2);
+  color: var(--preto-50, #595959);
   font-family: "Raleway";
   font-size: 12px;
   font-style: normal;
@@ -562,7 +562,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--azul-100, #2a7ae4);
+  background: var(--azul-100, #1252A0);
   color: var(--preto-branco, #fff);
   font-family: Raleway;
   font-size: 1em;
