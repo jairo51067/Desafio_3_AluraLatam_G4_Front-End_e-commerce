@@ -21,12 +21,27 @@ Este es un proyecto de una tienda en línea (e-commerce) que permite a los usuar
 - FontAwesome (para íconos)
 - Google Fonts (para fuentes tipográficas)
 
-## Instalación:
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/alurageek.git
-Abre el archivo index.html en tu navegador.
+## Instalación
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/usuario/nombre_del_proyecto.git
+    ```
+2. Abre el archivo `index.html` en tu navegador web preferido para ver el proyecto.
 
-Autor:
-Jairo A Cárdenas (Mayo 2023)
+## Cómo Contribuir
+Si deseas contribuir a este proyecto, por favor realiza lo siguiente:
+1. Forkea el repositorio.
+2. Crea una nueva rama (`git checkout -b nombre-de-la-rama`).
+3. Realiza tus cambios.
+4. Envía un pull request con una descripción clara de los cambios realizados.
+
+Agradezco cualquier sugerencia o mejora. No dudes en abrir un "issue" o enviar un "pull request".
+
+## Licencia
+Especifica la licencia bajo la cual se distribuye el proyecto (por ejemplo, MIT, GPL-3.0, etc.).
+
+## Autor
+Si tienes alguna pregunta o quieres ponerte en contacto conmigo, puedes hacerlo a través de:
+- Correo electrónico: jairo.cardenas.dev@gmail.com 
+- GitHub: [@jairo51067](https://github.com/jairo51067). 
 
