@@ -1,7 +1,8 @@
 # Desafio_3_AluraLatam_G4_Front-End_e-commerce
 Vea: e-commerce website https://jairo51067.github.io/Desafio_3_AluraLatam_G4_Front-End_e-commerce/
 
-![alt text](e-commerce.png)
+![e-commerce](https://github.com/user-attachments/assets/764ee836-f65f-4b71-bf83-54de1ce4ca18) 
+
 
 # AluraGeek e-Commerce Website
 Este es un proyecto de una tienda en línea (e-commerce) que permite a los usuarios explorar productos de diferentes categorías como "Productos de moda", "Consolas" y "Diversos". Está diseñado para mostrar las habilidades de desarrollo web, incluyendo HTML, CSS y JavaScript.
